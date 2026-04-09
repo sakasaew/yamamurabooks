@@ -49,6 +49,11 @@ details > div {
 
 /* レスポンシブテーブル：スマートフォンでは見出し→内容を縦積みに */
 @media (max-width: 639px) {
+  /* コンテナの角丸を外す（縦積み時に崩れて見えるため） */
+  .resp-table-wrap {
+    border-radius: 0 !important;
+  }
+
   .resp-table tbody tr {
     display: block;
   }
@@ -59,16 +64,16 @@ details > div {
     box-sizing: border-box;
   }
   .resp-table th {
+    padding-top: 12px !important;
     padding-bottom: 2px !important;
     border-bottom: none !important;
   }
   .resp-table td {
-    padding-top: 6px !important;
-    padding-bottom: 18px !important;
+    padding-top: 4px !important;
+    padding-bottom: 14px !important;
   }
-  /* 最後の行の余白を詰める */
   .resp-table tbody tr:last-child td {
-    padding-bottom: 20px !important;
+    padding-bottom: 16px !important;
   }
 }
 
