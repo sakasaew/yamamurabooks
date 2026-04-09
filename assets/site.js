@@ -23,33 +23,5 @@
   const year = document.getElementById("year");
   if (year) year.textContent = String(new Date().getFullYear());
 
-  // Contact form: open mail client with prefilled content.
-  const contactForm = document.getElementById("contactMailForm");
-  if (contactForm instanceof HTMLFormElement) {
-    contactForm.addEventListener("submit", (e) => {
-      e.preventDefault();
-      const to = "info@yamamurabook.shop";
-
-      const name = document.getElementById("contactName")?.value?.trim?.() ?? "";
-      const email = document.getElementById("contactEmail")?.value?.trim?.() ?? "";
-      const subjectRaw = document.getElementById("contactSubject")?.value?.trim?.() ?? "";
-      const bodyRaw = document.getElementById("contactBody")?.value?.trim?.() ?? "";
-
-      const subject = subjectRaw ? `山村書店 お問い合わせ: ${subjectRaw}` : "山村書店 お問い合わせ";
-      const body = [
-        "山村書店 御中",
-        "",
-        `氏名: ${name || "（未入力）"}`,
-        `メールアドレス: ${email || "（未入力）"}`,
-        "",
-        "内容:",
-        bodyRaw || "（未入力）",
-        "",
-      ].join("\n");
-
-      const mailto = `mailto:${encodeURIComponent(to)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      window.location.href = mailto;
-    });
-  }
 })();
 
