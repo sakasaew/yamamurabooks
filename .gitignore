@@ -1,0 +1,11 @@
+# 参照用 WordPress ソースファイル（公開不要）
+assets/current-*.html
+assets/sakasaew.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.code-workspace

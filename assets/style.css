@@ -1,0 +1,89 @@
+/* ============================================
+   山村書店 — 可読性強化スタイル
+   お年寄りも読みやすい大きめ文字・グリーン基調
+   ============================================ */
+
+/* ベースフォントサイズを18pxに拡大 */
+html {
+  font-size: 18px;
+}
+
+/* 行間を広めにとって読みやすく */
+body {
+  line-height: 1.85;
+}
+
+/* 背景を淡いグリーンのクリーム色に */
+.bg-soft {
+  background-color: #F2F8F5 !important;
+}
+
+/* 電話番号リンクを太く */
+a[href^="tel:"] {
+  font-weight: 700;
+}
+
+/* テーブルセルを上揃え */
+table td,
+table th {
+  vertical-align: top;
+}
+
+/* フォーカスリングをブランドカラー（グリーン）に */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #233a33;
+  outline-offset: 2px;
+  border-color: #233a33 !important;
+}
+
+/* details/summary のアニメーション */
+details > div {
+  animation: fadeIn 0.15s ease;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* レスポンシブテーブル：スマートフォンでは見出し→内容を縦積みに */
+@media (max-width: 639px) {
+  .resp-table tbody tr {
+    display: block;
+  }
+  .resp-table th,
+  .resp-table td {
+    display: block;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+  .resp-table th {
+    padding-bottom: 2px !important;
+    border-bottom: none !important;
+  }
+  .resp-table td {
+    padding-top: 6px !important;
+    padding-bottom: 18px !important;
+  }
+  /* 最後の行の余白を詰める */
+  .resp-table tbody tr:last-child td {
+    padding-bottom: 20px !important;
+  }
+}
+
+/* Googleマップ埋め込みをレスポンシブに */
+.map-responsive {
+  position: relative;
+  padding-bottom: 50%;
+  height: 0;
+  overflow: hidden;
+}
+.map-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
