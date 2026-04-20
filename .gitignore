@@ -9,3 +9,9 @@ Thumbs.db
 # Editor
 .vscode/
 *.code-workspace
+
+# Tailwind CLI binary (standalone exe, not needed in repo)
+tailwindcss.exe
+
+# Node
+node_modules/
