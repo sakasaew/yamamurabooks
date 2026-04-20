@@ -2,49 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.yamamurabook.shop/</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.yamamurabook.shop/access.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://www.yamamurabook.shop/access/</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.yamamurabook.shop/company.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://www.yamamurabook.shop/company/</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.yamamurabook.shop/recruit.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://www.yamamurabook.shop/recruit/</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.yamamurabook.shop/faq.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://www.yamamurabook.shop/faq/</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.yamamurabook.shop/contact.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://www.yamamurabook.shop/contact/</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.yamamurabook.shop/sakasaew.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://www.yamamurabook.shop/sakasaew/</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.yamamurabook.shop/privacypolicy.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://www.yamamurabook.shop/privacypolicy/</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
