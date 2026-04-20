@@ -25,7 +25,8 @@
     <meta name="theme-color" content="#1B6B6B" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" /></noscript>
     <link rel="stylesheet" href="./assets/tailwind.css" />
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
@@ -34,8 +35,8 @@
       <div class="mx-auto max-w-6xl px-4">
         <div class="flex h-20 items-center justify-between">
           <a class="flex items-center gap-3" href="./index.html" aria-label="株式会社山村書店 トップへ">
-            <img src="./assets/symbol1.svg" alt="株式会社山村書店 ロゴ" class="h-8 w-8 object-contain" />
-            <img src="./assets/logotype.svg" alt="株式会社山村書店" class="block h-6 w-auto object-contain" />
+            <img src="./assets/symbol1.svg" alt="株式会社山村書店 ロゴ" class="h-8 w-8 object-contain" width="32" height="32" />
+            <img src="./assets/logotype.svg" alt="株式会社山村書店" class="block h-6 w-auto object-contain" width="113" height="24" />
           </a>
           <nav class="hidden md:flex items-center gap-6 text-base text-slate-700 font-medium">
             <a class="hover:text-brand" href="./index.html">トップ</a>
@@ -162,7 +163,7 @@
             <div class="flex justify-center sm:justify-start">
               <div class="inline-flex flex-col gap-3 sm:flex-row sm:items-center">
                 <a href="https://lin.ee/iEk7qoo" target="_blank" rel="noreferrer">
-                  <img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" class="h-12 block" />
+                  <img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" class="h-12 block" width="185" height="48" />
                 </a>
                 <a href="./contact.html" class="flex items-center justify-center h-12 w-full sm:w-auto sm:px-6 rounded-xl bg-brand text-base font-bold text-white hover:opacity-90 text-center leading-tight">
                   お問い合わせは<br class="sm:hidden" />こちらから
@@ -192,7 +193,7 @@
             <div class="text-sm text-slate-500">© <span id="year"></span> 株式会社山村書店</div>
           </div>
           <a href="./index.html" class="shrink-0 self-center order-first md:order-none md:self-auto">
-            <img src="./assets/symbol2.svg" alt="山村書店" class="h-20 w-auto" />
+            <img src="./assets/symbol2.svg" alt="山村書店" class="h-20 w-auto" width="65" height="80" />
           </a>
         </div>
       </div>

@@ -25,7 +25,8 @@
     <meta name="theme-color" content="#1B6B6B" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" /></noscript>
     <link rel="stylesheet" href="./assets/tailwind.css" />
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
@@ -35,8 +36,8 @@
       <div class="mx-auto max-w-6xl px-4">
         <div class="flex h-20 items-center justify-between">
           <div class="flex items-center gap-3">
-            <img src="./assets/symbol1.svg" alt="株式会社山村書店 ロゴ" class="h-8 w-8 object-contain" />
-            <img src="./assets/logotype.svg" alt="株式会社山村書店" class="block h-6 w-auto object-contain" />
+            <img src="./assets/symbol1.svg" alt="株式会社山村書店 ロゴ" class="h-8 w-8 object-contain" width="32" height="32" />
+            <img src="./assets/logotype.svg" alt="株式会社山村書店" class="block h-6 w-auto object-contain" width="113" height="24" />
           </div>
 
           <nav class="hidden md:flex items-center gap-6 text-base text-slate-700 font-medium">
@@ -193,12 +194,12 @@
               <div class="flex h-10 w-10 items-center justify-center rounded-full bg-sage text-brand text-lg font-bold">1</div>
               <div class="mt-2 sm:mt-3 text-base font-semibold text-slate-900">注文</div>
             </li>
-            <div class="flex items-center justify-center text-slate-300 text-2xl font-bold sm:self-center rotate-90 sm:rotate-0">›</div>
+            <li aria-hidden="true" class="flex items-center justify-center text-slate-300 text-2xl font-bold sm:self-center rotate-90 sm:rotate-0">›</li>
             <li class="flex-1 flex flex-col items-center text-center py-1 px-5 sm:p-5">
               <div class="flex h-10 w-10 items-center justify-center rounded-full bg-sage text-brand text-lg font-bold">2</div>
               <div class="mt-2 sm:mt-3 text-base font-semibold text-slate-900">商品到着のメール確認</div>
             </li>
-            <div class="flex items-center justify-center text-slate-300 text-2xl font-bold sm:self-center rotate-90 sm:rotate-0">›</div>
+            <li aria-hidden="true" class="flex items-center justify-center text-slate-300 text-2xl font-bold sm:self-center rotate-90 sm:rotate-0">›</li>
             <li class="flex-1 flex flex-col items-center text-center py-1 px-5 sm:p-5">
               <div class="flex h-10 w-10 items-center justify-center rounded-full bg-sage text-brand text-lg font-bold">3</div>
               <div class="mt-2 sm:mt-3 text-base font-semibold text-slate-900">店頭にて商品の<br />お受け取り・お支払い</div>
@@ -222,7 +223,7 @@
             <div class="flex justify-center sm:justify-start">
               <div class="inline-flex flex-col gap-3 sm:flex-row sm:items-center">
                 <a href="https://lin.ee/iEk7qoo" target="_blank" rel="noreferrer">
-                  <img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" class="h-12 block" />
+                  <img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" class="h-12 block" width="185" height="48" />
                 </a>
                 <a
                   href="./contact.html"
@@ -255,7 +256,7 @@
             <div class="text-sm text-slate-500">© <span id="year"></span> 株式会社山村書店</div>
           </div>
           <a href="./index.html" class="shrink-0 self-center order-first md:order-none md:self-auto">
-            <img src="./assets/symbol2.svg" alt="山村書店" class="h-20 w-auto" />
+            <img src="./assets/symbol2.svg" alt="山村書店" class="h-20 w-auto" width="65" height="80" />
           </a>
         </div>
       </div>
