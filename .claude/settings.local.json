@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(file assets/yamamura-logo.png assets/yamamura-square.png assets/yamamura-mark.png)",
+      "Bash(ls -la assets/*.png)",
+      "Bash(python3 -)",
+      "WebFetch(domain:www.yamamurabook.shop)",
+      "WebFetch(domain:yamamurabooks.pages.dev)",
+      "Bash(cp \"f:/01_work/_sakasa_ma/sakasaew/images/KUMADE_CI-01.png\" \"f:/01_work/_sakasa_ma/yamamurabooks/assets/KUMADE_CI-01.png\")",
+      "Bash(cp \"f:/01_work/_sakasa_ma/sakasaew/images/marumado-logo-01.png\" \"f:/01_work/_sakasa_ma/yamamurabooks/assets/marumado-logo-01.png\")",
+      "WebSearch"
+    ]
+  }
+}
