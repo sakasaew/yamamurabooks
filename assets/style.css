@@ -6,6 +6,7 @@
 /* ベースフォントサイズを18pxに拡大 */
 html {
   font-size: 18px;
+  scroll-padding-top: 96px;
 }
 
 /* 行間を広めにとって読みやすく */
