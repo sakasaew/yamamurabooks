@@ -7,49 +7,49 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.yamamurabook.shop/news/</loc>
+    <loc>https://www.yamamurabook.shop/news</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.yamamurabook.shop/access/</loc>
+    <loc>https://www.yamamurabook.shop/access</loc>
     <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.yamamurabook.shop/company/</loc>
+    <loc>https://www.yamamurabook.shop/company</loc>
     <lastmod>2026-04-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.yamamurabook.shop/recruit/</loc>
+    <loc>https://www.yamamurabook.shop/recruit</loc>
     <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.yamamurabook.shop/faq/</loc>
+    <loc>https://www.yamamurabook.shop/faq</loc>
     <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.yamamurabook.shop/contact/</loc>
+    <loc>https://www.yamamurabook.shop/contact</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.yamamurabook.shop/sakasaew/</loc>
+    <loc>https://www.yamamurabook.shop/sakasaew</loc>
     <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.yamamurabook.shop/privacypolicy/</loc>
+    <loc>https://www.yamamurabook.shop/privacypolicy</loc>
     <lastmod>2026-04-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
