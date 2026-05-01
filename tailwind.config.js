@@ -8,4 +8,116 @@ module.exports = {
       fontFamily: { playwrite: ['"Noto Sans JP"', "ui-sans-serif", "system-ui", "sans-serif"] },
     },
   },
+  corePlugins: {
+    // Color-per-shade plugins not used in any HTML file
+    placeholderColor:           false,
+    placeholderOpacity:         false,
+    caretColor:                 false,
+    accentColor:                false,
+    fill:                       false, // SVG fills use inline HTML attributes
+    stroke:                     false, // SVG strokes use inline HTML attributes
+    strokeWidth:                false,
+
+    // Transform utilities not used (parallax uses inline style only)
+    translate:                  false,
+    skew:                       false,
+
+    // Backdrop-filter sub-plugins (only backdropBlur is used)
+    backdropBrightness:         false,
+    backdropContrast:           false,
+    backdropGrayscale:          false,
+    backdropHueRotate:          false,
+    backdropInvert:             false,
+    backdropOpacity:            false,
+    backdropSaturate:           false,
+    backdropSepia:              false,
+
+    // Image filter utilities (none used)
+    blur:                       false,
+    brightness:                 false,
+    contrast:                   false,
+    grayscale:                  false,
+    hueRotate:                  false,
+    invert:                     false,
+    saturate:                   false,
+    sepia:                      false,
+    dropShadow:                 false,
+
+    // Blend modes not used
+    mixBlendMode:               false,
+    backgroundBlendMode:        false,
+    isolation:                  false,
+
+    // Outline handled entirely in tailwind-input.css custom CSS
+    outlineColor:               false,
+    outlineOffset:              false,
+    outlineStyle:               false,
+    outlineWidth:               false,
+
+    // Grid sub-utilities not used (only grid + grid-cols-3 used)
+    gridAutoFlow:               false,
+    gridAutoColumns:            false,
+    gridAutoRows:               false,
+    gridTemplateRows:           false,
+    gridColumn:                 false,
+    gridRow:                    false,
+
+    // Table utilities not used
+    tableLayout:                false,
+    captionSide:                false,
+    borderCollapse:             false,
+    borderSpacing:              false,
+
+    // Layout utilities not used
+    float:                      false,
+    clear:                      false,
+    breakBefore:                false,
+    breakAfter:                 false,
+    breakInside:                false,
+    columns:                    false,
+    boxDecorationBreak:         false,
+    aspectRatio:                false,
+
+    // Background sub-plugins not used
+    backgroundRepeat:           false,
+    backgroundAttachment:       false,
+    backgroundClip:             false,
+    backgroundOrigin:           false,
+
+    // Text utilities not used
+    textTransform:              false,
+    textIndent:                 false,
+    textOverflow:               false, // truncate/text-ellipsis not used (whitespace-nowrap is from `whitespace` plugin)
+
+    // Interaction utilities not used
+    userSelect:                 false,
+    touchAction:                false,
+    resize:                     false,
+    appearance:                 false,
+    pointerEvents:              false,
+    overscrollBehavior:         false,
+
+    // Animation not used (custom @keyframes defined directly in CSS)
+    animation:                  false,
+
+    // Misc not used
+    fontVariantNumeric:         false,
+    visibility:                 false,
+    container:                  false, // max-w-6xl mx-auto pattern used instead
+    gradientColorStopPositions: false,
+
+    // Ring sub-plugins not used (only ring-1 + ring-color used)
+    ringOffsetColor:            false,
+    ringOffsetWidth:            false,
+    ringOpacity:                false,
+
+    // Divide sub-plugins not used (only divide-y + divide-color used)
+    divideOpacity:              false,
+    divideStyle:                false,
+
+    // Legacy opacity plugins not needed (JIT slash syntax used instead)
+    borderOpacity:              false,
+    textOpacity:                false,
+    backgroundOpacity:          false,
+  },
 };
