@@ -65,6 +65,11 @@ details > div {
   to   { opacity: 1; transform: translateY(0); }
 }
 
+/* FAQ アコーディオン：open 時にシェブロンを180度回転 */
+details[open] summary svg {
+  transform: rotate(180deg);
+}
+
 /* レスポンシブテーブル：スマートフォンでは見出し→内容を縦積みに */
 @media (max-width: 639px) {
   /* コンテナの角丸を外す（縦積み時に崩れて見えるため） */
