@@ -1,0 +1,53 @@
+[build]
+  publish = "."
+
+# 末尾スラッシュURLを直接コンテンツで返す（リダイレクトなし＝ループ不可能）
+# Netlifyが /news → /news/ にリダイレクトしてしまう場合でも
+# /news/ でコンテンツを直接返すため無限ループが発生しない
+[[redirects]]
+  from = "/news/"
+  to   = "/news.html"
+  status = 200
+  force  = true
+
+[[redirects]]
+  from = "/access/"
+  to   = "/access.html"
+  status = 200
+  force  = true
+
+[[redirects]]
+  from = "/company/"
+  to   = "/company.html"
+  status = 200
+  force  = true
+
+[[redirects]]
+  from = "/recruit/"
+  to   = "/recruit.html"
+  status = 200
+  force  = true
+
+[[redirects]]
+  from = "/faq/"
+  to   = "/faq.html"
+  status = 200
+  force  = true
+
+[[redirects]]
+  from = "/contact/"
+  to   = "/contact.html"
+  status = 200
+  force  = true
+
+[[redirects]]
+  from = "/sakasaew/"
+  to   = "/sakasaew.html"
+  status = 200
+  force  = true
+
+[[redirects]]
+  from = "/privacypolicy/"
+  to   = "/privacypolicy.html"
+  status = 200
+  force  = true
