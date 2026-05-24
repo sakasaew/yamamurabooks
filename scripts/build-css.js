@@ -36,7 +36,7 @@ postcss([
   .process(fs.readFileSync(inputFile, 'utf8'), { from: inputFile, to: outputFile })
   .then(result => {
     fs.writeFileSync(outputFile, result.css);
-    process.stderr.write('Done\n');
+    process.stdout.write('Done\n');
   })
   .catch(e => {
     console.error(e);
