@@ -103,8 +103,8 @@
               フォームに入力して送信してください。内容は <strong>info@yamamurabook.shop</strong> に届きます。
             </p>
 
-            <form action="https://formspree.io/f/xeepwgnj" method="POST" class="grid gap-4">
-              <input type="hidden" name="_subject" value="【山村書店】Webサイトからのお問い合わせ" />
+            <form id="contact-form" class="grid gap-4">
+              <input type="text" name="honeypot" class="hidden" tabindex="-1" autocomplete="off" />
               <div>
                 <label class="block text-base font-medium text-slate-700 mb-1" for="contactName">氏名</label>
                 <input type="text" id="contactName" name="name" required class="w-full rounded-xl border border-slate-300 px-4 py-3 text-base" placeholder="山村 太郎" />
@@ -114,17 +114,26 @@
                 <input type="email" id="contactEmail" name="email" required class="w-full rounded-xl border border-slate-300 px-4 py-3 text-base" placeholder="example@mail.com" />
               </div>
               <div>
-                <label class="block text-base font-medium text-slate-700 mb-1" for="contactSubject">ご用件</label>
-                <input type="text" id="contactSubject" name="subject" required class="w-full rounded-xl border border-slate-300 px-4 py-3 text-base" placeholder="教科書について" />
+                <label class="block text-base font-medium text-slate-700 mb-1" for="contactCategory">ご用件</label>
+                <input type="text" id="contactCategory" name="category" required class="w-full rounded-xl border border-slate-300 px-4 py-3 text-base" placeholder="教科書について" />
               </div>
               <div>
                 <label class="block text-base font-medium text-slate-700 mb-1" for="contactBody">詳細</label>
                 <textarea id="contactBody" name="message" rows="5" class="w-full rounded-xl border border-slate-300 px-4 py-3 text-base" placeholder="ご質問・ご要望などをご記入ください。"></textarea>
               </div>
               <div>
-                <button type="submit" class="rounded-xl bg-brand px-8 py-3 text-base font-bold text-white hover:opacity-90">送信する</button>
+                <button id="submit-btn" type="submit" class="rounded-xl bg-brand px-8 py-3 text-base font-bold text-white hover:opacity-90 disabled:opacity-50">
+                  <span id="submit-label">送信する →</span>
+                </button>
               </div>
             </form>
+
+            <p id="form-success" class="hidden mt-4 rounded-xl bg-green-50 border border-green-200 px-5 py-4 text-base text-green-800">
+              お問い合わせを受け付けました。確認メールをお送りしましたのでご確認ください。
+            </p>
+            <p id="form-error" class="hidden mt-4 rounded-xl bg-red-50 border border-red-200 px-5 py-4 text-base text-red-800">
+              送信に失敗しました。時間をおいて再度お試しいただくか、直接メールにてご連絡ください。
+            </p>
 
             <p class="mt-4 text-sm text-slate-500">
               直接メールを送る場合：<a href="mailto:info@yamamurabook.shop" class="text-brand underline underline-offset-4">info@yamamurabook.shop</a>
@@ -175,5 +184,6 @@
     </footer>
 
     <script src="./assets/site.js"></script>
+    <script src="./assets/contact.js"></script>
   </body>
 </html>
