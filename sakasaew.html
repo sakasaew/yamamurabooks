@@ -184,11 +184,12 @@
         var cats = ['./assets/lulu_silhouette.svg', './assets/reli_silhouette.svg'];
         function go() {
           catImg.src = cats[Math.floor(Math.random() * cats.length)];
+          walk.style.animation = '';
           walk.style.display = 'block';
+          walk.offsetHeight; // force reflow so animation restarts from the beginning
           walk.style.animation = 'catWalkX 13s linear forwards';
           setTimeout(function () {
             walk.style.display = 'none';
-            walk.style.animation = '';
             setTimeout(go, 25000 + Math.random() * 35000);
           }, 13000);
         }
