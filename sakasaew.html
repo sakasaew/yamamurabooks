@@ -157,5 +157,43 @@
     </footer>
 
     <script src="./assets/site.js"></script>
+
+    <style>
+      @keyframes catWalkX {
+        from { transform: translateX(-100px); }
+        to   { transform: translateX(calc(100vw + 100px)); }
+      }
+      @keyframes catBob {
+        0%, 100% { transform: translateY(0); }
+        50%       { transform: translateY(-6px); }
+      }
+      #cat-bob { animation: catBob 0.38s ease-in-out infinite; }
+    </style>
+    <div id="cat-walk" aria-hidden="true"
+         style="display:none; position:fixed; bottom:20px; left:0; z-index:40; pointer-events:none;">
+      <div id="cat-bob">
+        <a href="https://sakasaew.com/cats" target="_blank" rel="noreferrer" style="display:block; pointer-events:all; cursor:default;" tabindex="-1">
+          <img id="cat-img" src="" alt="" style="height:70px; width:auto;" />
+        </a>
+      </div>
+    </div>
+    <script>
+      (function () {
+        var walk = document.getElementById('cat-walk');
+        var catImg = document.getElementById('cat-img');
+        var cats = ['./assets/lulu_silhouette.svg', './assets/reli_silhouette.svg'];
+        function go() {
+          catImg.src = cats[Math.floor(Math.random() * cats.length)];
+          walk.style.display = 'block';
+          walk.style.animation = 'catWalkX 13s linear forwards';
+          setTimeout(function () {
+            walk.style.display = 'none';
+            walk.style.animation = '';
+            setTimeout(go, 25000 + Math.random() * 35000);
+          }, 13000);
+        }
+        setTimeout(go, 8000);
+      })();
+    </script>
   </body>
 </html>
