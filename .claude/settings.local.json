@@ -8,7 +8,15 @@
       "WebFetch(domain:yamamurabooks.pages.dev)",
       "Bash(cp \"f:/01_work/_sakasa_ma/sakasaew/images/KUMADE_CI-01.png\" \"f:/01_work/_sakasa_ma/yamamurabooks/assets/KUMADE_CI-01.png\")",
       "Bash(cp \"f:/01_work/_sakasa_ma/sakasaew/images/marumado-logo-01.png\" \"f:/01_work/_sakasa_ma/yamamurabooks/assets/marumado-logo-01.png\")",
-      "WebSearch"
+      "WebSearch",
+      "Bash(gh run *)",
+      "Bash(ls -la CNAME)",
+      "Bash(cat CNAME)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(git stash *)"
     ]
   }
 }
