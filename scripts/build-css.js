@@ -19,6 +19,10 @@
 // Additionally, normalizeUnicode and reduceInitial are disabled (see cssnano config
 // below). If you add @font-face unicode-range descriptors, or rely on cssnano
 // compressing `initial` keyword values, re-enable those plugins.
+// minifyGradients, orderedValues, and normalizeUrl are also disabled because
+// Tailwind's output contains no literal gradient values, no reorderable shorthand
+// candidates, and no non-data: URL references. Re-enable them if you add custom CSS
+// that uses literal gradients, complex multi-value shorthands, or http://-style URLs.
 
 const fs = require('fs');
 const path = require('path');
@@ -38,13 +42,15 @@ const { lazyCssnano } = require(
 
 const cssnano = lazyCssnano()({ preset: ['default', {
   cssDeclarationSorter: false,
-  // The three plugins below do zero work on Tailwind's utility CSS output
-  // (verified: output is byte-identical with them disabled). They load
-  // browserslist and scan all rules but find nothing to act on, so they
-  // are pure overhead.
+  // The six plugins below do zero work on Tailwind's utility CSS output
+  // (verified: output is byte-identical with them disabled). Each removed
+  // plugin eliminates one unnecessary PostCSS traversal of the stylesheet.
   stylehacks:      false, // no IE6/7 hack selectors in Tailwind output
   normalizeUnicode: false, // no unicode-range rules in Tailwind output
   reduceInitial:   false, // no initial-value longhand expansions to compress
+  minifyGradients: false, // all gradients use var(); plugin early-exits immediately
+  orderedValues:   false, // Tailwind values already in canonical order
+  normalizeUrl:    false, // only a data: URI present; plugin skips data URIs
 }] });
 
 const inputFile = path.join(dir, 'assets/tailwind-input.css');
