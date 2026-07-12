@@ -16,3 +16,6 @@ tailwindcss.exe
 # Node
 node_modules/
 .node-compile-cache/
+
+# Claude Code worktree（過去の作業コピー。削除ではなくignore対象とする）
+.claude/worktrees/
