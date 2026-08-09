@@ -2,6 +2,8 @@
   "name": "yamamurabooks",
   "version": "1.0.0",
   "devDependencies": {
+    "browserslist": "^4.28.8",
+    "lightningcss": "^1.33.0",
     "tailwindcss": "3.4.17"
   },
   "scripts": {
