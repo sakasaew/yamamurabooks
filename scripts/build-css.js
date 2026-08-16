@@ -16,19 +16,31 @@
 // text-emphasis-*, or column-* — manually add the required -webkit-/-moz- prefixes,
 // or temporarily re-add autoprefixer to verify coverage.
 //
-// lightningcss `targets` is set from the browserslist query below (NOT left unset):
-// leaving targets unset silently drops the `-webkit-backdrop-filter` fallback that
-// Tailwind's `.backdrop-blur` utility deliberately emits for Safari. The chosen
-// query ('> 0.2%, not dead') was verified (property-by-property diff against the
-// prior cssnano output, restricted to what's actually used across all 9 HTML pages)
-// to be behavior-preserving: it keeps `-webkit-backdrop-filter` (still required —
-// Safari's unprefixed multi-value `text-decoration`/backdrop-filter support is too
-// recent to drop), keeps `-webkit-text-decoration` (needed until Safari 26.2 for the
-// `text-decoration:underline dotted` shorthand on the FAQ/notice `abbr` styling —
-// cssnano's pipeline never added this; lightningcss's compat data is more complete),
-// and safely drops `-moz-tab-size` (unprefixed `tab-size` has shipped since Firefox
-// 91, and no page uses `<pre>`/`<code>`/literal tabs anyway). If you change the
-// browserslist query, re-diff the output for `-webkit-backdrop-filter` specifically.
+// lightningcss `targets` is set below (NOT left unset): leaving targets unset
+// silently drops the `-webkit-backdrop-filter` fallback that Tailwind's
+// `.backdrop-blur` utility deliberately emits for Safari. The value comes from the
+// browserslist query ('> 0.2%, not dead'), which was verified (property-by-property
+// diff against the prior cssnano output, restricted to what's actually used across
+// all 9 HTML pages) to be behavior-preserving: it keeps `-webkit-backdrop-filter`
+// (still required — Safari's unprefixed multi-value `text-decoration`/
+// backdrop-filter support is too recent to drop), keeps `-webkit-text-decoration`
+// (needed until Safari 26.2 for the `text-decoration:underline dotted` shorthand
+// on the FAQ/notice `abbr` styling — cssnano's pipeline never added this;
+// lightningcss's compat data is more complete), and safely drops `-moz-tab-size`
+// (unprefixed `tab-size` has shipped since Firefox 91, and no page uses
+// `<pre>`/`<code>`/literal tabs anyway). If you change the browserslist query,
+// re-diff the output for `-webkit-backdrop-filter` specifically.
+//
+// The targets object below is hardcoded (pre-computed) rather than resolved from
+// browserslist/caniuse-lite on every build: that resolution is ~20-35ms of pure
+// per-process overhead for a value that's constant given a fixed query and a fixed
+// caniuse-lite version (measured ~5-9% of total build time; A/B verified the CSS
+// output is byte-identical either way). To regenerate after updating caniuse-lite
+// (`npx update-browserslist-db@latest`) or changing the query, run:
+//   node -e "console.log(JSON.stringify(require('lightningcss').browserslistToTargets(require('browserslist')('> 0.2%, not dead'))))"
+// (requires `npm install --no-save browserslist` first, since it's not a listed
+// dependency — it's only needed for this one-off regeneration step.)
+const targets = {"and_chr":9895936,"and_ff":10027008,"chrome":7143424,"edge":9764864,"firefox":7929856,"ios_saf":984576,"op_mob":5242880,"safari":1180928,"samsung":1966080};
 
 const fs = require('fs');
 const path = require('path');
@@ -37,9 +49,6 @@ const dir = path.resolve(__dirname, '..');
 const postcss = require(path.join(dir, 'node_modules/postcss'));
 const tailwindcss = require(path.join(dir, 'node_modules/tailwindcss'));
 const lightningcss = require(path.join(dir, 'node_modules/lightningcss'));
-const browserslist = require(path.join(dir, 'node_modules/browserslist'));
-
-const targets = lightningcss.browserslistToTargets(browserslist('> 0.2%, not dead'));
 
 const inputFile = path.join(dir, 'assets/tailwind-input.css');
 const outputFile = path.join(dir, 'assets/tailwind.css');
