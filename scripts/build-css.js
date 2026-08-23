@@ -53,8 +53,26 @@ const lightningcss = require(path.join(dir, 'node_modules/lightningcss'));
 const inputFile = path.join(dir, 'assets/tailwind-input.css');
 const outputFile = path.join(dir, 'assets/tailwind.css');
 
+// Pass the resolved config *object* (via a plain `require()`) instead of a path
+// string. When given `{ config: '<path>' }`, tailwindcss's postcss plugin routes
+// through its own `loadConfig()` (lib/lib/load-config.js), which calls into `jiti`
+// to transpile+require the config file (via `sucrase`, to support TS/ESM config
+// files) — unneeded work for this project's plain CommonJS tailwind.config.js,
+// costing ~12ms/build. Note: `jiti`/`sucrase` are required into memory either way
+// (tailwindcss's own module graph pulls them in unconditionally at `require('tailwindcss')`
+// time); what this change actually skips is *invoking* them — `loadConfig()`'s
+// `lazyJiti()(path)` call and the `sucrase.transform()` it triggers — which is where
+// the real cost is (V8 compiling+running that transform pipeline, not the `require()`
+// itself). Passing an object instead (`resolveConfigPath(pathOrConfig)` returns null
+// for a non-`config`-keyed object — see node_modules/tailwindcss/lib/util/resolveConfigPath.js)
+// skips `loadConfig()` (and thus that invocation) entirely; this is a documented
+// supported call shape (`require('tailwindcss')({ theme: ..., variants: ... })`,
+// also reflected in tailwindcss's own type definitions), not an internals hack.
+// Content-glob resolution is unaffected: relative-path resolution only special-cases
+// a known config *path* when the (unused here) `content.relative`/experimental flag
+// is set, so it falls back to cwd-relative either way — same as before.
 postcss([
-  tailwindcss({ config: path.join(dir, 'tailwind.config.js') }),
+  tailwindcss(require(path.join(dir, 'tailwind.config.js'))),
 ])
   .process(fs.readFileSync(inputFile, 'utf8'), { from: inputFile, to: outputFile })
   .then(result => {
