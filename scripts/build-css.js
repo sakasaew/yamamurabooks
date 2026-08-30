@@ -46,6 +46,34 @@ const fs = require('fs');
 const path = require('path');
 const dir = path.resolve(__dirname, '..');
 
+// tailwindcss's setupTrackingContext.js unconditionally runs the whole resolved config
+// (full default theme — every color/spacing/fontSize scale merged with our `theme.extend`,
+// not just our own overrides) through `object-hash` (SHA1 via node:crypto) on every
+// `.process()` call, purely to key `configContextMap` (lib/setupContextUtils.js): an in-memory
+// Map that lets *watch mode* reuse a JIT context across repeated `.process()` calls within one
+// long-lived process. This script calls `.process()` exactly once and the process exits right
+// after, so that map is always empty at lookup time — populated but never read — and the hash
+// value can never affect the resolved context or the emitted CSS. Measured at
+// ~5-7% of total build time across CPU-profiled runs (object-hash's SHA1 walk over the huge
+// resolved-theme object is the actual cost, not the lookup itself).
+// Stub tailwindcss's hashConfig module (single consumer of `object-hash` in tailwindcss, see
+// node_modules/tailwindcss/lib/util/hashConfig.js) to a cheap constant instead, via a
+// require.cache entry planted before tailwindcss is first required. Wrapped in try/catch and
+// keyed off require.resolve() so a future tailwindcss upgrade that moves/removes/renames this
+// file just silently falls back to computing the real hash (require.resolve throws, we skip
+// planting the stub) rather than crashing the build.
+try {
+  const hashConfigPath = require.resolve(path.join(dir, 'node_modules/tailwindcss/lib/util/hashConfig.js'));
+  require.cache[hashConfigPath] = {
+    id: hashConfigPath,
+    filename: hashConfigPath,
+    loaded: true,
+    exports: { __esModule: true, default: () => 'build-css-skipped-hash' },
+  };
+} catch {
+  // tailwindcss's internal layout changed — fall back to the real (slower) hashConfig.
+}
+
 const postcss = require(path.join(dir, 'node_modules/postcss'));
 const tailwindcss = require(path.join(dir, 'node_modules/tailwindcss'));
 const lightningcss = require(path.join(dir, 'node_modules/lightningcss'));
