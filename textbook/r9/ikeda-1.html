@@ -34,8 +34,16 @@
       .tb-total b{font-size:1.9rem;font-variant-numeric:tabular-nums}
       .tb-later{margin-top:2rem;border:2px solid #D1E4DD;border-radius:1rem;padding:1rem 1.25rem 1.25rem}
       @media (min-width:640px){.tb-total b{font-size:2.25rem}}
-      /* PC幅では金額表の幅を絞り、書名と金額が離れすぎないようにする */
-      @media (min-width:768px){.tb-list,.tb-sum,.tb-later{max-width:44rem}}
+      /* タブレット幅：金額表の幅を絞り、書名と金額が離れすぎないようにする */
+      @media (min-width:768px) and (max-width:1023px){.tb-list,.tb-sum,.tb-later{max-width:44rem}}
+      /* PC幅：左に一覧、右に合計金額（スクロールしても見える位置に固定）の2カラム */
+      @media (min-width:1024px){
+        .tb-grid{display:grid;grid-template-columns:minmax(0,1fr) 21rem;grid-template-areas:"main aside" "later aside";column-gap:2.5rem;align-items:start}
+        .tb-main{grid-area:main}
+        .tb-later{grid-area:later}
+        .tb-aside{grid-area:1 / 2 / 3 / 3;position:sticky;top:6.5rem}
+        .tb-aside .tb-sum{margin-top:2.5rem}
+      }
     </style>
   </head>
   <body class="bg-soft text-ink antialiased font-playwrite">
@@ -589,19 +597,20 @@
         const tb = its.filter(i => i.kubun === "教科書"), sb = its.filter(i => i.kubun === "副教材");
         const ship = p.ship ? DATA.ship : 0;
         const total = sum(tb) + sum(sb) + ship;
-        let h = "";
-        h += '<h2 class="' + H2 + '">教科書（' + tb.length + '冊）</h2>' + list(tb);
-        h += '<h2 class="' + H2 + '">副教材（' + sb.length + '点）</h2>' + list(sb);
-        h += '<p class="mt-4 text-sm text-slate-500">' + esc(DATA.starNote) + "</p>";
-        h += '<div class="tb-sum"><dl>' +
+        let main = "", aside = "", later = "";
+        main += '<h2 class="' + H2 + '">教科書（' + tb.length + '冊）</h2>' + list(tb);
+        main += '<h2 class="' + H2 + '">副教材（' + sb.length + '点）</h2>' + list(sb);
+        main += '<p class="mt-4 text-sm text-slate-500">' + esc(DATA.starNote) + "</p>";
+        aside += '<div class="tb-sum"><dl>' +
              "<dt>教科書 小計</dt><dd id='sub-tb'>" + yen(sum(tb)) + "</dd>" +
              "<dt>副教材 小計</dt><dd id='sub-sb'>" + yen(sum(sb)) + "</dd>" +
              "<dt>送料</dt><dd id='sub-ship'>" + (ship ? yen(ship) : "—") + "</dd></dl>" +
              '<div class="tb-total"><span class="font-bold">合計金額</span><b id="total" data-total="' + total + '">' + yen(total) + "</b></div>" +
              '<p class="mt-3 text-sm text-slate-500">合計金額は払込票の金額と同じです。金額はすべて税込です（教科書は非課税）。</p></div>';
         if (DATA.laterSale.length) {
-          h += '<div class="tb-later"><h2 class="text-xl font-bold tracking-tight text-slate-900">後日販売（合計金額には含まれません）</h2>' + list(DATA.laterSale) + "</div>";
+          later = '<div class="tb-later"><h2 class="text-xl font-bold tracking-tight text-slate-900">後日販売（合計金額には含まれません）</h2>' + list(DATA.laterSale) + "</div>";
         }
+        const h = '<div class="tb-grid"><div class="tb-main">' + main + '</div><aside class="tb-aside" aria-label="合計金額">' + aside + '</aside>' + later + '</div>';
         out.innerHTML = h;
       }
       function fromHash() {
