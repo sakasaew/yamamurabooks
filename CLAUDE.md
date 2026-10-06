@@ -9,6 +9,13 @@
 ## 本番URL
 https://www.yamamurabook.shop/
 
+## プッシュ先ルール（重要）
+- **原則として、作業ブランチ（`main` 以外）にプッシュしてプレビューで確認する**
+  - 作業ブランチ `xxx` にプッシュ → プレビュー `https://xxx.yamamurabooks.pages.dev` に反映（本番には出ない）
+  - 例：`add-textbook-page` → https://add-textbook-page.yamamurabooks.pages.dev
+- **`main` へのプッシュ・マージは本番に反映されるため、ユーザーの明示的な指示があるときだけ行う**
+- プッシュする前に、**どのブランチにプッシュし、どこ（プレビュー／本番）に反映されるか**を必ずユーザーに伝える
+
 ## 技術スタック
 - 静的HTML + Tailwind CSS（ローカルビルド）
 - Tailwind CLI: `./tailwindcss.exe -i ./assets/tailwind-input.css -o ./assets/tailwind.css --minify`
