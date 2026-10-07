@@ -74,6 +74,32 @@ try {
   // tailwindcss's internal layout changed — fall back to the real (slower) hashConfig.
 }
 
+// tailwindcss's lib/lib/load-config.js eagerly requires `jiti` and `sucrase` at module top level
+// (~45ms of module load, the single largest require cost), and setupTrackingContext.js requires
+// it unconditionally — even though loadConfig() is only reached when a config *path* is passed.
+// We pass a plain config object below (see the comment there), so loadConfig() is never called
+// and the module's exports are never used. Stub it via require.cache (same technique and same
+// try/catch fallback as hashConfig above) so jiti/sucrase are never loaded. If tailwindcss ever
+// does call the stub (e.g. the config is switched back to a path), it throws loudly rather than
+// silently returning an empty config.
+try {
+  const loadConfigPath = require.resolve(path.join(dir, 'node_modules/tailwindcss/lib/lib/load-config.js'));
+  require.cache[loadConfigPath] = {
+    id: loadConfigPath,
+    filename: loadConfigPath,
+    loaded: true,
+    exports: {
+      __esModule: true,
+      useCustomJiti() {},
+      loadConfig() {
+        throw new Error('build-css.js stubs tailwindcss load-config; pass the config as an object');
+      },
+    },
+  };
+} catch {
+  // tailwindcss's internal layout changed — fall back to the real (slower) loader.
+}
+
 const postcss = require(path.join(dir, 'node_modules/postcss'));
 const tailwindcss = require(path.join(dir, 'node_modules/tailwindcss'));
 const lightningcss = require(path.join(dir, 'node_modules/lightningcss'));
@@ -86,12 +112,9 @@ const outputFile = path.join(dir, 'assets/tailwind.css');
 // through its own `loadConfig()` (lib/lib/load-config.js), which calls into `jiti`
 // to transpile+require the config file (via `sucrase`, to support TS/ESM config
 // files) — unneeded work for this project's plain CommonJS tailwind.config.js,
-// costing ~12ms/build. Note: `jiti`/`sucrase` are required into memory either way
-// (tailwindcss's own module graph pulls them in unconditionally at `require('tailwindcss')`
-// time); what this change actually skips is *invoking* them — `loadConfig()`'s
-// `lazyJiti()(path)` call and the `sucrase.transform()` it triggers — which is where
-// the real cost is (V8 compiling+running that transform pipeline, not the `require()`
-// itself). Passing an object instead (`resolveConfigPath(pathOrConfig)` returns null
+// costing ~12ms/build. (The load-config.js stub above additionally avoids even *loading*
+// `jiti`/`sucrase`; this call shape is what guarantees `loadConfig()` is never invoked.)
+// Passing an object instead (`resolveConfigPath(pathOrConfig)` returns null
 // for a non-`config`-keyed object — see node_modules/tailwindcss/lib/util/resolveConfigPath.js)
 // skips `loadConfig()` (and thus that invocation) entirely; this is a documented
 // supported call shape (`require('tailwindcss')({ theme: ..., variants: ... })`,
