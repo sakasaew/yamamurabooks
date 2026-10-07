@@ -2,10 +2,11 @@
   "name": "yamamurabooks",
   "version": "1.0.0",
   "devDependencies": {
+    "lightningcss": "^1.33.0",
     "tailwindcss": "3.4.17"
   },
   "scripts": {
-    "build:css": "tailwindcss -i ./assets/tailwind-input.css -o ./assets/tailwind.css --minify",
+    "build:css": "NODE_COMPILE_CACHE=.node-compile-cache node scripts/build-css.js",
     "watch:css": "tailwindcss -i ./assets/tailwind-input.css -o ./assets/tailwind.css --watch"
   }
 }
