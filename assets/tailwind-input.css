@@ -105,3 +105,25 @@ details > div {
   height: 100%;
   border: 0;
 }
+
+/* モバイルメニュー：コンテンツを押し下げず、ヘッダー下に重ねて表示し、背面を暗くぼかす */
+@media (max-width: 767px) {
+  #mobileMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 0.5rem 1rem 1rem;
+    max-height: calc(100vh - 6rem);
+    overflow-y: auto;
+  }
+  body.menu-open::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 40;
+    background: rgba(15, 23, 20, 0.45);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+  }
+}

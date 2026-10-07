@@ -16,11 +16,23 @@
 
   const btn = document.getElementById("mobileMenuBtn");
   const menu = document.getElementById("mobileMenu");
+  const setMenu = (open) => {
+    menu?.classList.toggle("hidden", !open);
+    document.body.classList.toggle("menu-open", open);
+    if (!btn) return;
+    btn.textContent = open ? "閉じる" : "メニュー";
+    btn.setAttribute("aria-label", open ? "メニューを閉じる" : "メニューを開く");
+    btn.setAttribute("aria-expanded", String(open));
+  };
   btn?.addEventListener("click", () => {
-    const isOpen = menu?.classList.toggle("hidden") === false;
-    btn.textContent = isOpen ? "閉じる" : "メニュー";
-    btn.setAttribute("aria-label", isOpen ? "メニューを閉じる" : "メニューを開く");
-    btn.setAttribute("aria-expanded", String(isOpen));
+    setMenu(menu?.classList.contains("hidden") ?? false);
+  });
+  // 背面（暗くなった部分）をタップ、またはEscキーで閉じる
+  document.addEventListener("click", (e) => {
+    if (menu && !menu.classList.contains("hidden") && !e.target.closest("header")) setMenu(false);
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && menu && !menu.classList.contains("hidden")) setMenu(false);
   });
 
   const year = document.getElementById("year");
