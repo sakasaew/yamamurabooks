@@ -15,7 +15,7 @@
 | access.html | 利用案内（店舗・倉庫情報） |
 | company.html | 会社概要 |
 | recruit.html | 採用情報 |
-| faq.html | よくある質問 |
+| faq.html | よくあるご質問 |
 | contact.html | お問い合わせ |
 | sakasaew.html | 長女の部屋 |
 | privacypolicy.html | プライバシーポリシー |
