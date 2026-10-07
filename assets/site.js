@@ -31,6 +31,10 @@
   document.addEventListener("click", (e) => {
     if (menu && !menu.classList.contains("hidden") && !e.target.closest("header")) setMenu(false);
   });
+  // 画面幅の変更でメニューボタンが非表示になったら、開いたままにしない
+  window.addEventListener("resize", () => {
+    if (btn && btn.offsetParent === null && !menu?.classList.contains("hidden")) setMenu(false);
+  });
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && menu && !menu.classList.contains("hidden")) setMenu(false);
   });
