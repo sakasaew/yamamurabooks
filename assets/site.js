@@ -17,7 +17,10 @@
   const btn = document.getElementById("mobileMenuBtn");
   const menu = document.getElementById("mobileMenu");
   btn?.addEventListener("click", () => {
-    menu?.classList.toggle("hidden");
+    const isOpen = menu?.classList.toggle("hidden") === false;
+    btn.textContent = isOpen ? "閉じる" : "メニュー";
+    btn.setAttribute("aria-label", isOpen ? "メニューを閉じる" : "メニューを開く");
+    btn.setAttribute("aria-expanded", String(isOpen));
   });
 
   const year = document.getElementById("year");
