@@ -107,7 +107,7 @@
           </div>
 
           <div id="result" aria-live="polite">
-            <p class="mt-6 text-base text-slate-500" id="empty">コースを選ぶと、教材と金額が表示されます。</p>
+            <p class="mt-6 text-base text-slate-500" id="empty">コースを選ぶと、教科書・副教材と金額が表示されます。</p>
           </div>
 
           <h2 class="mt-12 text-2xl font-bold tracking-tight text-slate-900">お支払い・お届けについて</h2>
@@ -835,7 +835,7 @@
       const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
       const sel = document.getElementById("course"), out = document.getElementById("result"), desc = document.getElementById("desc");
       const H2 = "mt-10 text-2xl font-bold tracking-tight text-slate-900";
-      const EMPTY = '<p class="mt-6 text-base text-slate-500" id="empty">コースを選ぶと、教材と金額が表示されます。</p>';
+      const EMPTY = '<p class="mt-6 text-base text-slate-500" id="empty">コースを選ぶと、教科書・副教材と金額が表示されます。</p>';
       for (const p of DATA.patterns) {
         const o = document.createElement("option");
         o.value = p.code; o.textContent = p.slip;
