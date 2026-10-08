@@ -7,10 +7,25 @@
     const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const isTouch = window.matchMedia("(pointer: coarse)").matches;
     if (!prefersReducedMotion && !isTouch) {
-      const speed = 0.25;
-      window.addEventListener("scroll", () => {
-        heroImg.style.transform = `translateY(${window.scrollY * speed * -1}px) scale(1.12)`;
-      }, { passive: true });
+      const speed = 0.3;
+      const frame = heroImg.parentElement;
+      let ticking = false;
+      const update = () => {
+        ticking = false;
+        // 画像が枠より高い分の余白の範囲内にずらし量を制限（はみ出して黒背景が見えるのを防ぐ）
+        const maxShift = (heroImg.offsetHeight - frame.offsetHeight) / 2;
+        const shift = Math.max(-maxShift, Math.min(maxShift, -frame.getBoundingClientRect().top * speed));
+        heroImg.style.transform = `translateY(${shift}px)`;
+      };
+      const onScroll = () => {
+        if (!ticking) {
+          ticking = true;
+          requestAnimationFrame(update);
+        }
+      };
+      window.addEventListener("scroll", onScroll, { passive: true });
+      window.addEventListener("resize", onScroll);
+      update();
     }
   }
 
