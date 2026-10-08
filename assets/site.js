@@ -7,8 +7,8 @@
     const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const isTouch = window.matchMedia("(pointer: coarse)").matches;
     if (!prefersReducedMotion && !isTouch) {
-      const speed = 0.25;
-      const scale = 1.12;
+      const speed = 0.3;
+      const scale = 1.3;
       const frame = heroImg.parentElement;
       let ticking = false;
       const update = () => {
