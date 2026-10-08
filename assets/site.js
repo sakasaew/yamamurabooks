@@ -8,15 +8,14 @@
     const isTouch = window.matchMedia("(pointer: coarse)").matches;
     if (!prefersReducedMotion && !isTouch) {
       const speed = 0.3;
-      const scale = 1.3;
       const frame = heroImg.parentElement;
       let ticking = false;
       const update = () => {
         ticking = false;
-        // scale拡大による余白の範囲内にずらし量を制限（はみ出して黒背景が見えるのを防ぐ）
-        const maxShift = (heroImg.offsetHeight * (scale - 1)) / 2;
+        // 画像が枠より高い分の余白の範囲内にずらし量を制限（はみ出して黒背景が見えるのを防ぐ）
+        const maxShift = (heroImg.offsetHeight - frame.offsetHeight) / 2;
         const shift = Math.max(-maxShift, Math.min(maxShift, -frame.getBoundingClientRect().top * speed));
-        heroImg.style.transform = `translateY(${shift}px) scale(${scale})`;
+        heroImg.style.transform = `translateY(${shift}px)`;
       };
       const onScroll = () => {
         if (!ticking) {
