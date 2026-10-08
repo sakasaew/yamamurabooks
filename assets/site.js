@@ -8,9 +8,25 @@
     const isTouch = window.matchMedia("(pointer: coarse)").matches;
     if (!prefersReducedMotion && !isTouch) {
       const speed = 0.25;
-      window.addEventListener("scroll", () => {
-        heroImg.style.transform = `translateY(${window.scrollY * speed * -1}px) scale(1.12)`;
-      }, { passive: true });
+      const scale = 1.12;
+      const frame = heroImg.parentElement;
+      let ticking = false;
+      const update = () => {
+        ticking = false;
+        // scale拡大による余白の範囲内にずらし量を制限（はみ出して黒背景が見えるのを防ぐ）
+        const maxShift = (heroImg.offsetHeight * (scale - 1)) / 2;
+        const shift = Math.max(-maxShift, Math.min(maxShift, -frame.getBoundingClientRect().top * speed));
+        heroImg.style.transform = `translateY(${shift}px) scale(${scale})`;
+      };
+      const onScroll = () => {
+        if (!ticking) {
+          ticking = true;
+          requestAnimationFrame(update);
+        }
+      };
+      window.addEventListener("scroll", onScroll, { passive: true });
+      window.addEventListener("resize", onScroll);
+      update();
     }
   }
 
