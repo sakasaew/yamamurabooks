@@ -68,9 +68,10 @@
             <img src="./assets/logotype.svg" alt="株式会社山村書店" class="block h-6 w-auto object-contain" width="113" height="24" />
           </div>
 
-          <nav class="hidden md:flex items-center gap-6 text-base text-slate-700 font-medium">
+          <nav class="hidden lg:flex items-center gap-6 text-base text-slate-700 font-medium">
             <a class="hover:text-brand" href="./news.html">お知らせ</a>
             <a class="hover:text-brand" href="./access.html">利用案内</a>
+            <a class="hover:text-brand" href="./textbook.html">教科書</a>
             <a class="hover:text-brand" href="./company.html">会社概要</a>
             <a class="hover:text-brand" href="./recruit.html">採用情報</a>
             <a class="hover:text-brand" href="./faq.html">よくあるご質問</a>
@@ -79,18 +80,19 @@
 
           <button
             id="mobileMenuBtn"
-            class="md:hidden inline-flex h-12 items-center justify-center rounded border-2 border-slate-200 hover:bg-soft px-4 text-sm font-bold text-slate-700"
+            class="lg:hidden inline-flex h-12 items-center justify-center rounded border-2 border-slate-200 hover:bg-soft px-4 text-sm font-bold text-slate-700"
             aria-label="メニューを開く"
           >
             メニュー
           </button>
         </div>
 
-        <div id="mobileMenu" class="md:hidden hidden pb-4">
+        <div id="mobileMenu" class="lg:hidden hidden pb-4">
           <div class="grid gap-1 rounded-2xl border border-slate-100 bg-white p-3 text-base text-slate-800 shadow-md">
             <a class="rounded-xl px-4 py-3 font-bold text-brand bg-soft flex items-center justify-between" href="./index.html" aria-current="page">トップページ <span class="h-2 w-2 rounded-full bg-brand flex-shrink-0"></span></a>
             <a class="rounded-xl px-4 py-3 hover:bg-soft font-medium" href="./news.html">お知らせ</a>
             <a class="rounded-xl px-4 py-3 hover:bg-soft font-medium" href="./access.html">利用案内</a>
+            <a class="rounded-xl px-4 py-3 hover:bg-soft font-medium" href="./textbook.html">教科書のご案内</a>
             <a class="rounded-xl px-4 py-3 hover:bg-soft font-medium" href="./company.html">会社概要</a>
             <a class="rounded-xl px-4 py-3 hover:bg-soft font-medium" href="./recruit.html">採用情報</a>
             <a class="rounded-xl px-4 py-3 hover:bg-soft font-medium" href="./faq.html">よくあるご質問</a>
@@ -190,7 +192,11 @@
             を参照ください。<span class="text-sm text-slate-500">※岐阜県教販のWebサイトへ遷移します。</span>
           </p>
 
-          <div class="mt-10 grid gap-3 sm:grid-cols-3">
+          <div class="mt-10 grid gap-3 sm:grid-cols-2">
+            <a class="group flex items-center justify-between rounded border-2 border-slate-200 bg-white px-5 py-4 text-base font-semibold text-slate-800 hover:border-brand hover:text-brand" href="./textbook.html">
+              教科書のご案内
+              <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></svg>
+            </a>
             <a class="group flex items-center justify-between rounded border-2 border-slate-200 bg-white px-5 py-4 text-base font-semibold text-slate-800 hover:border-brand hover:text-brand" href="./access.html">
               店舗・倉庫へのアクセス
               <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></svg>
@@ -278,6 +284,7 @@
               <a class="hover:text-brand" href="./index.html">トップページ</a>
               <a class="hover:text-brand" href="./news.html">お知らせ</a>
               <a class="hover:text-brand" href="./access.html">利用案内</a>
+              <a class="hover:text-brand" href="./textbook.html">教科書のご案内</a>
               <a class="hover:text-brand" href="./company.html">会社概要</a>
               <a class="hover:text-brand" href="./recruit.html">採用情報</a>
               <a class="hover:text-brand" href="./faq.html">よくあるご質問</a>

@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Language" content="ja" />
+    <meta name="language" content="Japanese" />
+    <meta name="robots" content="noindex" />
+    <meta name="description" content="株式会社山村書店：池田高校 新1年生の教科書・副教材と金額のご案内です。" />
+    <title>令和9年度 池田高校 新1年生 教科書・副教材 - 株式会社山村書店</title>
+    <link rel="icon" type="image/png" href="/assets/yamamura-square.png" />
+    <link rel="apple-touch-icon" href="/assets/yamamura-square.png" />
+    <meta name="theme-color" content="#1B6B6B" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/tailwind.css" />
+    <style>
+      /* このページ固有のスタイル（金額表まわり）。色はサイトの brand / sage / soft に合わせている */
+      .tb-proto{border:2px dashed #2D5246;background:#fff;color:#2D5246;border-radius:.75rem;padding:.6rem .9rem;font-size:.875rem;font-weight:700}
+      .tb-select{width:100%;appearance:none;-webkit-appearance:none;border:2px solid #cbd5e1;border-radius:.75rem;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' stroke='%232D5246' stroke-width='2' fill='none'/%3E%3C/svg%3E") no-repeat right 1rem center;padding:.85rem 2.6rem .85rem 1rem;font-size:1rem;font-weight:700;color:#1E2820;font-family:inherit}
+      .tb-select:hover{border-color:#2D5246}
+      .tb-desc{margin-top:.75rem;background:#F2F8F5;border-radius:.75rem;padding:.75rem 1rem}
+      .tb-list{list-style:none;margin:.75rem 0 0;padding:0;border-top:1px solid #e2e8f0}
+      .tb-list li{display:grid;grid-template-columns:1fr auto;gap:.75rem;align-items:baseline;padding:.75rem .1rem;border-bottom:1px solid #e2e8f0}
+      .tb-title{font-weight:500;line-height:1.5;word-break:break-word}
+      .tb-meta{display:block;font-size:.8rem;color:#64748b;margin-top:.1rem}
+      .tb-price{font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:500}
+      .tb-star{color:#B42318;font-weight:700;margin-right:.15rem}
+      .tb-sum{margin-top:2rem;background:#F2F8F5;border-radius:1rem;padding:1.25rem}
+      .tb-sum dl{display:grid;grid-template-columns:1fr auto;row-gap:.35rem;margin:0}
+      .tb-sum dt{color:#334155}.tb-sum dd{margin:0;text-align:right;font-variant-numeric:tabular-nums}
+      .tb-total{display:flex;justify-content:space-between;align-items:baseline;border-top:2px solid #2D5246;margin-top:.8rem;padding-top:.8rem;color:#2D5246}
+      .tb-total b{font-size:1.9rem;font-variant-numeric:tabular-nums}
+      .tb-deadline{margin-top:1rem;border:2px solid #B42318;background:#FEF3F2;border-radius:.75rem;padding:.7rem .9rem;text-align:center;color:#B42318}
+      .tb-deadline span{display:block;font-size:.9rem;font-weight:700}
+      .tb-deadline b{display:block;margin-top:.1rem;font-size:1.35rem;font-weight:900;line-height:1.35}
+      .tb-later{margin-top:2rem;border:2px solid #D1E4DD;border-radius:1rem;padding:1rem 1.25rem 1.25rem}
+      @media (min-width:640px){.tb-total b{font-size:2.25rem}}
+      /* タブレット幅：金額表の幅を絞り、書名と金額が離れすぎないようにする */
+      @media (min-width:768px) and (max-width:1023px){.tb-list,.tb-sum,.tb-later{max-width:44rem}}
+      /* PC幅：左に一覧、右に合計金額（スクロールしても見える位置に固定）の2カラム */
+      @media (min-width:1024px){
+        .tb-grid{display:grid;grid-template-columns:minmax(0,1fr) 21rem;grid-template-areas:"main aside" "later aside";column-gap:2.5rem;align-items:start}
+        .tb-main{grid-area:main}
+        .tb-later{grid-area:later}
+        .tb-aside{grid-area:1 / 2 / 3 / 3;position:sticky;top:6.5rem}
+        .tb-aside .tb-sum{margin-top:2.5rem}
+      }
+    </style>
+  </head>
+  <body class="bg-soft text-ink antialiased font-playwrite">
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+      <div class="mx-auto max-w-6xl px-4">
+        <div class="flex h-20 items-center justify-between">
+          <a class="flex items-center gap-3" href="/index.html" aria-label="株式会社山村書店 トップへ">
+            <img src="/assets/symbol1.svg" alt="株式会社山村書店 ロゴ" class="h-8 w-8 object-contain" width="32" height="32" />
+            <img src="/assets/logotype.svg" alt="株式会社山村書店" class="block h-6 w-auto object-contain" width="113" height="24" />
+          </a>
+          <nav class="hidden lg:flex items-center gap-6 text-base text-slate-700 font-medium">
+            <a class="hover:text-brand" href="/news.html">お知らせ</a>
+            <a class="hover:text-brand" href="/access.html">利用案内</a>
+            <a class="text-brand font-bold border-b-2 border-brand pb-0.5" href="/textbook.html" aria-current="true">教科書</a>
+            <a class="hover:text-brand" href="/company.html">会社概要</a>
+            <a class="hover:text-brand" href="/recruit.html">採用情報</a>
+            <a class="hover:text-brand" href="/faq.html">よくあるご質問</a>
+            <a class="hover:text-brand" href="/contact.html">お問い合わせ</a>
+          </nav>
+          <button id="mobileMenuBtn" class="lg:hidden inline-flex h-12 items-center justify-center rounded border-2 border-slate-200 hover:bg-soft px-4 text-sm font-bold text-slate-700" aria-label="メニューを開く">
+            メニュー
+          </button>
+        </div>
+        <div id="mobileMenu" class="lg:hidden hidden pb-4">
+          <div class="grid gap-1 rounded-2xl border border-slate-100 bg-white p-3 text-base text-slate-800 shadow-md">
+            <a class="rounded-xl px-4 py-3 hover:bg-soft font-medium" href="/index.html">トップページ</a>
+            <a class="rounded-xl px-4 py-3 hover:bg-soft font-medium" href="/news.html">お知らせ</a>
+            <a class="rounded-xl px-4 py-3 hover:bg-soft font-medium" href="/access.html">利用案内</a>
+            <a class="rounded-xl px-4 py-3 font-bold text-brand bg-soft flex items-center justify-between" href="/textbook.html" aria-current="true">教科書のご案内 <span class="h-2 w-2 rounded-full bg-brand flex-shrink-0"></span></a>
+            <a class="rounded-xl px-4 py-3 hover:bg-soft font-medium" href="/company.html">会社概要</a>
+            <a class="rounded-xl px-4 py-3 hover:bg-soft font-medium" href="/recruit.html">採用情報</a>
+            <a class="rounded-xl px-4 py-3 hover:bg-soft font-medium" href="/faq.html">よくあるご質問</a>
+            <a class="rounded-xl px-4 py-3 hover:bg-soft font-medium" href="/contact.html">お問い合わせ</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="bg-soft">
+      <div class="mx-auto max-w-6xl px-4 py-10">
+        <div class="rounded-2xl bg-white p-7 shadow-sm ring-1 ring-slate-100 sm:p-10">
+          <div class="text-base text-slate-500">
+            <a class="hover:text-brand" href="/index.html">トップページ</a>
+            <span class="mx-2">/</span>
+            <a class="hover:text-brand" href="/textbook.html">教科書のご案内</a>
+            <span class="mx-2">/</span>
+            <span>池田高校 新1年生</span>
+          </div>
+
+          <h1 class="mt-4 text-3xl font-bold tracking-tight text-slate-900">令和9年度 池田高校 新1年生 教科書・副教材</h1>
+          <p class="tb-proto mt-6">ダミー（試作）：令和8年度のデータ・定価で表示しています</p>
+
+          <div id="selbox">
+            <label for="course" id="sel-label" class="mt-10 block text-2xl font-bold tracking-tight text-slate-900"></label>
+            <p id="sel-hint" class="mt-3 mb-4 text-base leading-relaxed text-slate-700"></p>
+            <select id="course" class="tb-select"><option value="">選んでください</option></select>
+            <div id="desc" class="tb-desc text-base text-slate-700" hidden></div>
+          </div>
+
+          <div id="result" aria-live="polite">
+            <p class="mt-6 text-base text-slate-500" id="empty">コースを選ぶと、教科書・副教材と金額が表示されます。</p>
+          </div>
+
+          <h2 class="mt-12 text-2xl font-bold tracking-tight text-slate-900">お支払い・お届けについて</h2>
+          <ul id="pay" class="mt-4 space-y-2 pl-5 text-base leading-relaxed text-slate-700 list-disc"></ul>
+
+          <div class="mt-10 rounded-2xl bg-white border-2 border-[#D1E4DD] p-6">
+            <p class="text-base font-semibold text-slate-700 mb-4">お気軽に<br class="sm:hidden" />お問い合わせください</p>
+            <div class="flex justify-center sm:justify-start">
+              <div class="inline-flex flex-wrap items-center justify-center gap-2">
+                <a href="https://lin.ee/iEk7qoo" target="_blank" rel="noreferrer">
+                  <img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" class="h-12 w-auto" width="185" height="48" />
+                </a>
+                <a href="/contact.html" class="flex items-center justify-center h-12 px-3 rounded bg-brand text-base font-bold text-white hover:opacity-90 text-center leading-tight">
+                  お問い合わせは<br class="sm:hidden" />こちらから
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="border-t-2 border-slate-200 bg-white">
+      <div class="mx-auto max-w-6xl px-4 py-10">
+        <div class="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
+          <div class="flex flex-col gap-4">
+            <nav class="flex flex-wrap gap-x-5 gap-y-3 text-base text-slate-700">
+              <a class="hover:text-brand" href="/index.html">トップページ</a>
+              <a class="hover:text-brand" href="/news.html">お知らせ</a>
+              <a class="hover:text-brand" href="/access.html">利用案内</a>
+              <a class="hover:text-brand" href="/textbook.html">教科書のご案内</a>
+              <a class="hover:text-brand" href="/company.html">会社概要</a>
+              <a class="hover:text-brand" href="/recruit.html">採用情報</a>
+              <a class="hover:text-brand" href="/faq.html">よくあるご質問</a>
+              <a class="hover:text-brand" href="/contact.html">お問い合わせ</a>
+              <a class="hover:text-brand" href="/sakasaew.html">長女の部屋</a>
+              <a class="hover:text-brand" href="/privacypolicy.html">プライバシーポリシー</a>
+            </nav>
+            <div class="text-sm text-slate-500">© <span id="year"></span> 株式会社山村書店</div>
+          </div>
+          <a href="/index.html" class="shrink-0 self-center order-first md:order-none md:self-auto">
+            <img src="/assets/symbol2.svg" alt="山村書店" class="h-20 w-auto" width="65" height="80" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/assets/site.js"></script>
+    <script>
+      const DATA = {
+ "select": {
+  "single": true,
+  "label": "",
+  "hint": ""
+ },
+ "patterns": [
+  {
+   "code": "ALL",
+   "slip": "新1年生（全員）",
+   "desc": "新1年生は全員同じ内容です",
+   "items": [
+    "IK1-001",
+    "IK1-002",
+    "IK1-003",
+    "IK1-004",
+    "IK1-005",
+    "IK1-006",
+    "IK1-007",
+    "IK1-008",
+    "IK1-009",
+    "IK1-010",
+    "IK1-011",
+    "IK1-012",
+    "IK1-013",
+    "IK1-014",
+    "IK1-015",
+    "IK1-016",
+    "IK1-017",
+    "IK1-018",
+    "IK1-019",
+    "IK1-020",
+    "IK1-021",
+    "IK1-022",
+    "IK1-023",
+    "IK1-024",
+    "IK1-025",
+    "IK1-026",
+    "IK1-027",
+    "IK1-028",
+    "IK1-029",
+    "IK1-030",
+    "IK1-031",
+    "IK1-032",
+    "IK1-033",
+    "IK1-034",
+    "IK1-035",
+    "IK1-036",
+    "IK1-037",
+    "IK1-038",
+    "IK1-039"
+   ],
+   "ship": true
+  }
+ ],
+ "items": {
+  "IK1-001": {
+   "kubun": "教科書",
+   "pub": "数研",
+   "num": "104-903",
+   "title": "改訂版 高等学校 現代の国語",
+   "price": 651,
+   "laterDelivery": false
+  },
+  "IK1-002": {
+   "kubun": "教科書",
+   "pub": "数研",
+   "num": "104-902",
+   "title": "改訂版 高等学校 言語文化",
+   "price": 812,
+   "laterDelivery": false
+  },
+  "IK1-003": {
+   "kubun": "教科書",
+   "pub": "山川",
+   "num": "081-903",
+   "title": "わたしたちの歴史 日本から世界へ",
+   "price": 800,
+   "laterDelivery": false
+  },
+  "IK1-004": {
+   "kubun": "教科書",
+   "pub": "数研",
+   "num": "104-904",
+   "title": "改訂版 新編 数学Ⅰ",
+   "price": 858,
+   "laterDelivery": false
+  },
+  "IK1-005": {
+   "kubun": "教科書",
+   "pub": "数研",
+   "num": "104-904",
+   "title": "改訂版 新編 数学A",
+   "price": 680,
+   "laterDelivery": false
+  },
+  "IK1-006": {
+   "kubun": "教科書",
+   "pub": "東書",
+   "num": "002-902",
+   "title": "改訂 新編物理基礎",
+   "price": 914,
+   "laterDelivery": false
+  },
+  "IK1-007": {
+   "kubun": "教科書",
+   "pub": "東書",
+   "num": "002-902",
+   "title": "改訂 新編生物基礎",
+   "price": 1037,
+   "laterDelivery": false
+  },
+  "IK1-008": {
+   "kubun": "教科書",
+   "pub": "大修館",
+   "num": "050-901",
+   "title": "現代高等保健体育 改訂版",
+   "price": 766,
+   "laterDelivery": false
+  },
+  "IK1-009": {
+   "kubun": "教科書",
+   "pub": "数研",
+   "num": "104-902",
+   "title": "Re. BIG DIPPER English CommunicationⅠ",
+   "price": 740,
+   "laterDelivery": false
+  },
+  "IK1-010": {
+   "kubun": "教科書",
+   "pub": "数研",
+   "num": "104-904",
+   "title": "Re. BIG DIPPER English Logic and ExpressionⅠ",
+   "price": 683,
+   "laterDelivery": false
+  },
+  "IK1-011": {
+   "kubun": "教科書",
+   "pub": "東書",
+   "num": "002-901",
+   "title": "家庭基礎 自立・共生・創造",
+   "price": 639,
+   "laterDelivery": false
+  },
+  "IK1-012": {
+   "kubun": "教科書",
+   "pub": "数研",
+   "num": "702",
+   "title": "理数探究基礎",
+   "price": 849,
+   "laterDelivery": false
+  },
+  "IK1-013": {
+   "kubun": "副教材",
+   "pub": "数研出版",
+   "num": "",
+   "title": "改訂版 高等学校現代の国語 準拠ワーク",
+   "price": 605,
+   "laterDelivery": false
+  },
+  "IK1-014": {
+   "kubun": "副教材",
+   "pub": "数研出版",
+   "num": "",
+   "title": "改訂版 高等学校言語文化 準拠ワーク",
+   "price": 660,
+   "laterDelivery": false
+  },
+  "IK1-015": {
+   "kubun": "副教材",
+   "pub": "尚文出版",
+   "num": "",
+   "title": "新しい古典の学習 2in1スタイル 学ぶぞ古文と漢文",
+   "price": 737,
+   "laterDelivery": false
+  },
+  "IK1-016": {
+   "kubun": "副教材",
+   "pub": "尚文出版",
+   "num": "",
+   "title": "新しい古典の学習 2in1スタイル 学ぶぞ古文と漢文 基本練習ノート",
+   "price": 583,
+   "laterDelivery": false
+  },
+  "IK1-017": {
+   "kubun": "副教材",
+   "pub": "尚文出版",
+   "num": "",
+   "title": "入試対策ベストセレクション古文単語325 改訂版",
+   "price": 968,
+   "laterDelivery": false
+  },
+  "IK1-018": {
+   "kubun": "副教材",
+   "pub": "尚文出版",
+   "num": "",
+   "title": "新装版 実践文字力トリプルチェック",
+   "price": 693,
+   "laterDelivery": false
+  },
+  "IK1-019": {
+   "kubun": "副教材",
+   "pub": "東京書籍",
+   "num": "",
+   "title": "高校国語へのステップ",
+   "price": 380,
+   "laterDelivery": false
+  },
+  "IK1-020": {
+   "kubun": "副教材",
+   "pub": "山川出版",
+   "num": "",
+   "title": "わたしたちの歴史 日本から世界へ ノート",
+   "price": 825,
+   "laterDelivery": false
+  },
+  "IK1-021": {
+   "kubun": "副教材",
+   "pub": "数研出版",
+   "num": "",
+   "title": "数学入門スタートワーク",
+   "price": 385,
+   "laterDelivery": false
+  },
+  "IK1-022": {
+   "kubun": "副教材",
+   "pub": "数研出版",
+   "num": "",
+   "title": "改訂版 新課程 Study-Upノート数学Ⅰ",
+   "price": 572,
+   "laterDelivery": false
+  },
+  "IK1-023": {
+   "kubun": "副教材",
+   "pub": "数研出版",
+   "num": "",
+   "title": "改訂版 新課程 Study-Upノート数学A",
+   "price": 517,
+   "laterDelivery": false
+  },
+  "IK1-024": {
+   "kubun": "副教材",
+   "pub": "数研出版",
+   "num": "",
+   "title": "改訂版 チャート式 基礎と演習数学Ⅰ+A(白)",
+   "price": 1914,
+   "laterDelivery": false
+  },
+  "IK1-025": {
+   "kubun": "副教材",
+   "pub": "数研出版",
+   "num": "",
+   "title": "教科書準拠 新編 数学Ⅱ ナビゲーションノートシリーズ 式と証明,複素数と方程式",
+   "price": 297,
+   "laterDelivery": false
+  },
+  "IK1-026": {
+   "kubun": "副教材",
+   "pub": "数研出版",
+   "num": "",
+   "title": "新課程 Study-Upノート数学Ⅱ",
+   "price": 770,
+   "laterDelivery": false
+  },
+  "IK1-027": {
+   "kubun": "副教材",
+   "pub": "数研出版",
+   "num": "",
+   "title": "三訂版 リードLightノート 物理基礎",
+   "price": 836,
+   "laterDelivery": false
+  },
+  "IK1-028": {
+   "kubun": "副教材",
+   "pub": "数研出版",
+   "num": "",
+   "title": "三訂版 リードLightノート 生物基礎",
+   "price": 792,
+   "laterDelivery": false
+  },
+  "IK1-029": {
+   "kubun": "副教材",
+   "pub": "大修館",
+   "num": "",
+   "title": "現代高等保健体育ノート 改訂版",
+   "price": 979,
+   "laterDelivery": false
+  },
+  "IK1-030": {
+   "kubun": "副教材",
+   "pub": "数研出版",
+   "num": "",
+   "title": "改訂版 Reach for the Big Dipper 英語の基礎定着ノート",
+   "price": 407,
+   "laterDelivery": false
+  },
+  "IK1-031": {
+   "kubun": "副教材",
+   "pub": "数研出版",
+   "num": "",
+   "title": "改訂版 Big Dipper English Communication Ⅰ ベーシックノート",
+   "price": 715,
+   "laterDelivery": false
+  },
+  "IK1-032": {
+   "kubun": "副教材",
+   "pub": "数研出版",
+   "num": "",
+   "title": "改訂版 LEAP Basic 必携 英単語",
+   "price": 1078,
+   "laterDelivery": false
+  },
+  "IK1-033": {
+   "kubun": "副教材",
+   "pub": "美誠社",
+   "num": "",
+   "title": "リスニング問題集 オールイアーズ改訂版ベーシック",
+   "price": 770,
+   "laterDelivery": false
+  },
+  "IK1-034": {
+   "kubun": "副教材",
+   "pub": "いいずな",
+   "num": "",
+   "title": "Treasure Hunt 1 3rd Edition",
+   "price": 891,
+   "laterDelivery": false
+  },
+  "IK1-035": {
+   "kubun": "副教材",
+   "pub": "いいずな",
+   "num": "",
+   "title": "Treasure Hunt 2 3rd Edition",
+   "price": 891,
+   "laterDelivery": false
+  },
+  "IK1-036": {
+   "kubun": "副教材",
+   "pub": "桐原書店",
+   "num": "",
+   "title": "WHAT'S UP? for SDGs 【BASIC】",
+   "price": 748,
+   "laterDelivery": false
+  },
+  "IK1-037": {
+   "kubun": "副教材",
+   "pub": "数研出版",
+   "num": "",
+   "title": "改訂版 Big Dipper English Logic and Expression Ⅰ ワークブック",
+   "price": 704,
+   "laterDelivery": false
+  },
+  "IK1-038": {
+   "kubun": "副教材",
+   "pub": "数研出版",
+   "num": "",
+   "title": "改訂版 チャート式 BIG DIPPER ビッグ ディッパー高校英語",
+   "price": 1650,
+   "laterDelivery": false
+  },
+  "IK1-039": {
+   "kubun": "副教材",
+   "pub": "実教出版",
+   "num": "",
+   "title": "生活学Navi 資料+成分表 2026",
+   "price": 970,
+   "laterDelivery": false
+  }
+ },
+ "ship": 1154,
+ "deadline": "2027年3月19日（金）",
+ "starNote": "※印の教科書・副教材は、入荷の都合などで発送するセットに入っていません。入荷しだい学校へまとめてお届けし、学校からお渡しします（代金は合計金額に含まれています）。",
+ "payLines": [
+  "お支払い：同封の払込票で、コンビニまたはスマホ決済（PayPay・楽天ペイ・au PAY）でお支払いください。お支払い期限：2027年3月19日（金）",
+  "期限を過ぎると払込票は使えません。期限後は、山村書店の口座へお振込みください（振込先はご案内に記載しております）。振込名義：受験番号＋生徒氏名。振込手数料はご負担ください",
+  "お支払いを確認したのち、ご自宅へ発送します。",
+  "払込票やお振込みでご入金いただけなかった場合に限り、山村書店の店頭でも購入いただけます。"
+ ],
+ "laterSale": [
+  {
+   "kubun": "教科書",
+   "pub": "教芸",
+   "num": "027-901",
+   "title": "MOUSA1",
+   "price": 544,
+   "laterDelivery": false
+  },
+  {
+   "kubun": "教科書",
+   "pub": "光村",
+   "num": "038-901",
+   "title": "美術1",
+   "price": 1322,
+   "laterDelivery": false
+  },
+  {
+   "kubun": "教科書",
+   "pub": "東書",
+   "num": "002-901",
+   "title": "書道Ⅰ",
+   "price": 577,
+   "laterDelivery": false
+  }
+ ]
+};
+      const yen = n => n.toLocaleString("ja-JP") + "円";
+      const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+      const sel = document.getElementById("course"), out = document.getElementById("result"), desc = document.getElementById("desc");
+      const H2 = "mt-10 text-2xl font-bold tracking-tight text-slate-900";
+      const EMPTY = '<p class="mt-6 text-base text-slate-500" id="empty">コースを選ぶと、教科書・副教材と金額が表示されます。</p>';
+      for (const p of DATA.patterns) {
+        const o = document.createElement("option");
+        o.value = p.code; o.textContent = p.slip;
+        sel.appendChild(o);
+      }
+      if (DATA.select.single) { document.getElementById("selbox").hidden = true; }
+      else { document.getElementById("sel-label").textContent = DATA.select.label; document.getElementById("sel-hint").textContent = DATA.select.hint; }
+      document.getElementById("pay").innerHTML = DATA.payLines.map(t => "<li>" + esc(t) + "</li>").join("");
+
+      function list(items) {
+        return '<ul class="tb-list">' + items.map(it =>
+          '<li><div class="tb-title">' + (it.laterDelivery ? '<span class="tb-star" aria-label="後日配布">※</span>' : "") + esc(it.title) +
+          '<span class="tb-meta">' + esc([it.pub, it.num].filter(Boolean).join("　")) + '</span></div>' +
+          '<div class="tb-price">' + yen(it.price) + "</div></li>").join("") + "</ul>";
+      }
+      function sum(items) { return items.reduce((a, it) => a + it.price, 0); }
+
+      function render(code) {
+        const p = DATA.patterns.find(x => x.code === code);
+        if (!p) { out.innerHTML = EMPTY; desc.hidden = true; sel.value = ""; return; }
+        sel.value = p.code;
+        if (p.desc) { desc.hidden = false; desc.innerHTML = '<b>' + esc(p.slip) + '</b>　' + esc(p.desc); } else { desc.hidden = true; }
+        const its = p.items.map(id => DATA.items[id]);
+        const tb = its.filter(i => i.kubun === "教科書"), sb = its.filter(i => i.kubun === "副教材");
+        const ship = p.ship ? DATA.ship : 0;
+        const total = sum(tb) + sum(sb) + ship;
+        let main = "", aside = "", later = "";
+        main += '<h2 class="' + H2 + '">教科書（' + tb.length + '冊）</h2>' + list(tb);
+        main += '<h2 class="' + H2 + '">副教材（' + sb.length + '点）</h2>' + list(sb);
+        main += '<p class="mt-4 text-sm text-slate-500">' + esc(DATA.starNote) + "</p>";
+        aside += '<div class="tb-sum"><dl>' +
+             "<dt>教科書 小計</dt><dd id='sub-tb'>" + yen(sum(tb)) + "</dd>" +
+             "<dt>副教材 小計</dt><dd id='sub-sb'>" + yen(sum(sb)) + "</dd>" +
+             "<dt>送料</dt><dd id='sub-ship'>" + (ship ? yen(ship) : "—") + "</dd></dl>" +
+             '<div class="tb-total"><span class="font-bold">合計金額</span><b id="total" data-total="' + total + '">' + yen(total) + "</b></div>" +
+             '<div class="tb-deadline"><span>お支払い期限（払込票）</span><b>' + esc(DATA.deadline) + '</b></div>' +
+             '<p class="mt-3 text-sm text-slate-500">合計金額は払込票の金額と同じです。金額はすべて税込です（教科書は非課税）。</p></div>';
+        if (DATA.laterSale.length) {
+          later = '<div class="tb-later"><h2 class="text-xl font-bold tracking-tight text-slate-900">後日販売（合計金額には含まれません）</h2>' + list(DATA.laterSale) + "</div>";
+        }
+        const h = '<div class="tb-grid"><div class="tb-main">' + main + '</div><aside class="tb-aside" aria-label="合計金額">' + aside + '</aside>' + later + '</div>';
+        out.innerHTML = h;
+      }
+      function fromHash() {
+        const c = decodeURIComponent(location.hash.replace(/^#/, "")).toUpperCase().replace(/^[A-Z]{2}[0-9]-/, "");
+        render(c);
+      }
+      sel.addEventListener("change", () => {
+        if (sel.value) history.replaceState(null, "", "#" + sel.value); else history.replaceState(null, "", location.pathname);
+        render(sel.value);
+      });
+      window.addEventListener("hashchange", fromHash);
+      if (DATA.select.single) render(DATA.patterns[0].code); else fromHash();
+    </script>
+  </body>
+</html>
