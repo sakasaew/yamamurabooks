@@ -59,3 +59,19 @@ https://www.yamamurabook.shop/
 - 販売開始時期（前期4月16日以降、後期9月16日以降 など）の年度表記と日付を、令和9年度のものに更新する（ソースの「来年のタスク」コメントが目印。教科書ページとFAQの両方）
 - 学年ページは検索結果に出さない設定（noindex）で、`sitemap.xml` にも載せていない。公開時にこの扱いを変えるかはユーザーに確認する
 - 学年ページの `ikeda-1` は、コースが1つだけのため選択欄を隠している（`"single": true`）。コース説明は画面に出ないが、そのままでよい（ユーザー確認済み）
+
+### 教科書関連ページのURL一覧（プレビュー：`add-textbook-page` の状態）
+プレビューのベースURL: `https://add-textbook-page.yamamurabooks.pages.dev`（公開後は `https://www.yamamurabook.shop` に置き換わる）
+
+| ページ | ファイル | URL（ベースURLのあと） |
+|---|---|---|
+| 教科書のご案内（メイン） | `textbook.html` | `/textbook` |
+| 池田高校 新1年生 | `textbook/r9/ikeda-1.html` | `/textbook/r9/ikeda-1` |
+| 池田高校 新2年生 | `textbook/r9/ikeda-2.html` | `/textbook/r9/ikeda-2` |
+| 池田高校 新3年生 | `textbook/r9/ikeda-3.html` | `/textbook/r9/ikeda-3` |
+| 大垣工業高校 新1年生 | `textbook/r9/daiko-1.html` | `/textbook/r9/daiko-1` |
+| 大垣工業高校 新2年生 | `textbook/r9/daiko-2.html` | `/textbook/r9/daiko-2` |
+| 大垣工業高校 新3年生 | `textbook/r9/daiko-3.html` | `/textbook/r9/daiko-3` |
+
+- 学年ページ6枚は `noindex`（検索結果に出さない）で、`sitemap.xml` にも載せていない。メインの `/textbook` は `sitemap.xml` と `_redirects` に登録済み
+- 「新○年生」は令和9年度の学年（ファイル名の `r9` が令和9年度）
