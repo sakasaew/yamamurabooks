@@ -19,6 +19,7 @@
 | contact.html | お問い合わせ |
 | sakasaew.html | 長女の部屋 |
 | privacypolicy.html | プライバシーポリシー |
+| tokushoho.html | 特定商取引法に基づく表記 |
 
 ## 技術スタック
 
