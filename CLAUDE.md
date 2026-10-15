@@ -34,6 +34,7 @@ https://www.yamamurabook.shop/
 | contact.html | /contact |
 | sakasaew.html | /sakasaew |
 | privacypolicy.html | /privacypolicy |
+| tokushoho.html | /tokushoho |
 
 ## URL設計ルール（重要）
 - canonical・sitemap・`_redirects` はすべて**スラッシュなし**で統一
