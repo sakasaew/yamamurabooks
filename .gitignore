@@ -16,5 +16,8 @@ tailwindcss.exe
 # Node
 node_modules/
 
+# Claude Security プラグインのスキャン結果（脆弱性情報を含むため公開しない）
+CLAUDE-SECURITY-*/
+
 # Claude Code worktree（過去の作業コピー。削除ではなくignore対象とする）
 .claude/worktrees/
