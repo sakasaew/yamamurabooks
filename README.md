@@ -24,9 +24,9 @@
 ## 技術スタック
 
 - 静的HTML（フレームワーク不使用）
-- [Tailwind CSS](https://tailwindcss.com/) CDN（インラインconfig）
-- [M PLUS 1p](https://fonts.google.com/specimen/M+PLUS+1p)（Google Fonts）
-- お問い合わせフォーム：[Formspree](https://formspree.io/)
+- [Tailwind CSS](https://tailwindcss.com/)（Tailwind CLIでローカルビルド）
+- [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP)（Google Fonts）
+- お問い合わせフォーム：Google Apps Script（`assets/contact.js` から送信）
 
 ## ブランドカラー
 
