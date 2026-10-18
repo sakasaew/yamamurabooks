@@ -75,6 +75,6 @@ npm run watch:css      # 監視ビルド
 | ファイル | 内容 |
 |---|---|
 | `_redirects` | `.html` 付き・スラッシュ付きURLを、スラッシュなしURLへ301リダイレクト |
-| `_headers` | Cloudflare Pagesのレスポンスヘッダー設定 |
+| `_headers` | Cloudflare Pagesのレスポンスヘッダー設定（CSP等のセキュリティヘッダー）。外部サービスを追加したら CSP の許可先も更新すること。`sakasaew.html` のインラインscriptはハッシュで許可しているので、書き換えたらsha256を再計算する |
 | `sitemap.xml` / `robots.txt` | SEO用 |
 | `ee88badadad046fbabb176444dd610df.txt` | 検索エンジン向けのキー確認ファイル（IndexNow形式）。削除しないこと |
