@@ -586,9 +586,9 @@
  "starNote": "※印の教科書・副教材は、入荷の都合などで発送するセットに入っていません。入荷しだい学校へまとめてお届けし、学校からお渡しします（代金は合計金額に含まれています）。",
  "payLines": [
   "お支払い：学校でお渡しする払込票で、コンビニまたはスマホ決済（PayPay・楽天ペイ・au PAY）でお支払いください。お支払い期間：2027年3月12日（金）〜3月22日（月）",
-  "期限を過ぎると払込票は使えません。期限後は、山村書店の口座へお振込みください（振込先はご案内に記載しております）。振込名義：受検番号。振込手数料はご負担ください。",
+  "期限を過ぎると払込票は使えません。期限後は、山村書店での個別対応となります。",
   "お支払いを確認したのち、ご自宅へ発送します。",
-  "払込票やお振込みでご入金いただけなかった場合に限り、3月最終週以降、山村書店の店頭でも購入いただけます（現金のみ。ご来店の日を事前にご連絡ください）。"
+  "詳しくは、お問い合わせください。"
  ],
  "laterSale": [
   {
@@ -621,7 +621,7 @@
       }
       if (DATA.select.single) { document.getElementById("selbox").hidden = true; }
       else { document.getElementById("sel-label").textContent = DATA.select.label; document.getElementById("sel-hint").textContent = DATA.select.hint; }
-      document.getElementById("pay").innerHTML = DATA.payLines.map(t => "<li>" + esc(t) + "</li>").join("");
+      document.getElementById("pay").innerHTML = DATA.payLines.map(t => "<li>" + esc(t).replace("お問い合わせ", '<a class="text-brand underline underline-offset-4 hover:opacity-80" href="/contact.html">お問い合わせ</a>') + "</li>").join("");
 
       function list(items) {
         return '<ul class="tb-list">' + items.map(it =>
