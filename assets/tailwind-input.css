@@ -107,22 +107,24 @@ details > div {
 }
 
 /* モバイルメニュー：コンテンツを押し下げず、ヘッダー下に重ねて表示し、背面を暗くぼかす
-   開閉は display ではなく opacity / transform / visibility で、ふわっと動かす */
+   開閉は display ではなく opacity / transform / visibility で、ふわっと動かす
+   ・メニュー自体は md:hidden / lg:hidden で PC幅では display:none になるため、位置指定は幅に依存しない
+   ・「閉じた状態」の見せ方だけ、ハンバーガーが出る幅（md=767px以下 / lg=1023px以下）に合わせて上書き */
+#mobileMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  padding: 0.5rem 1rem 1rem;
+  max-height: calc(100vh - 6rem);
+  overflow-y: auto;
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+  transition: opacity 0.25s ease-out, transform 0.25s ease-out, visibility 0.25s;
+}
 @media (max-width: 767px) {
-  #mobileMenu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    padding: 0.5rem 1rem 1rem;
-    max-height: calc(100vh - 6rem);
-    overflow-y: auto;
-    opacity: 1;
-    transform: translateY(0);
-    visibility: visible;
-    transition: opacity 0.25s ease-out, transform 0.25s ease-out, visibility 0.25s;
-  }
-  #mobileMenu.hidden {
+  #mobileMenu.md\:hidden.hidden {
     display: block;
     opacity: 0;
     transform: translateY(-8px);
@@ -130,28 +132,38 @@ details > div {
     pointer-events: none;
     transition-duration: 0.2s;
   }
-  body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    z-index: 40;
-    background: rgba(15, 23, 20, 0.45);
-    -webkit-backdrop-filter: blur(3px);
-    backdrop-filter: blur(3px);
+}
+@media (max-width: 1023px) {
+  #mobileMenu.lg\:hidden.hidden {
+    display: block;
     opacity: 0;
+    transform: translateY(-8px);
     visibility: hidden;
     pointer-events: none;
-    transition: opacity 0.25s ease-out, visibility 0.25s;
-  }
-  body.menu-open::before {
-    opacity: 1;
-    visibility: visible;
+    transition-duration: 0.2s;
   }
 }
-@media (max-width: 767px) and (prefers-reduced-motion: reduce) {
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: rgba(15, 23, 20, 0.45);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.25s ease-out, visibility 0.25s;
+}
+body.menu-open::before {
+  opacity: 1;
+  visibility: visible;
+}
+@media (prefers-reduced-motion: reduce) {
   #mobileMenu,
   #mobileMenu.hidden,
   body::before {
-    transition: none;
+    transition: none !important;
   }
 }
