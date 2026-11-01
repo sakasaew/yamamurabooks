@@ -653,7 +653,7 @@
         aside += '<div class="tb-sum"><dl>' +
              "<dt>教科書 小計</dt><dd id='sub-tb'>" + yen(sum(tb)) + "</dd>" +
              "<dt>副教材 小計</dt><dd id='sub-sb'>" + yen(sum(sb)) + "</dd>" +
-             "<dt>販売手数料・送料</dt><dd id='sub-ship'>" + (ship ? yen(ship) : "—") + "</dd></dl>" +
+             (ship ? "<dt>販売手数料・送料</dt><dd id='sub-ship'>" + yen(ship) + "</dd>" : "") + "</dl>" +
              '<div class="tb-total"><span class="font-bold">合計金額</span><b id="total" data-total="' + total + '">' + yen(total) + "</b></div>" +
              '<div class="tb-deadline"><span>お支払い期間（払込票）</span><b>' + deadlineHtml(DATA.deadline) + '</b></div>' +
              '<p class="mt-3 text-sm text-slate-500">合計金額は払込票の金額と同じです。金額はすべて税込です（教科書は非課税）。</p></div>';
