@@ -649,7 +649,7 @@
              "<dt>副教材 小計</dt><dd id='sub-sb'>" + yen(sum(sb)) + "</dd>" +
              "<dt>販売手数料・送料</dt><dd id='sub-ship'>" + (ship ? yen(ship) : "—") + "</dd></dl>" +
              '<div class="tb-total"><span class="font-bold">合計金額</span><b id="total" data-total="' + total + '">' + yen(total) + "</b></div>" +
-             '<div class="tb-deadline"><span>お支払い期間（払込票）</span><b>' + esc(DATA.deadline) + '</b></div>' +
+             '<div class="tb-deadline"><span>お支払い期間（払込票）</span><b>' + esc(DATA.deadline).replace('〜', '〜<br>') + '</b></div>' +
              '<p class="mt-3 text-sm text-slate-500">合計金額は払込票の金額と同じです。金額はすべて税込です（教科書は非課税）。</p></div>';
         if (DATA.laterSale.length) {
           later = '<div class="tb-later"><h2 class="text-xl font-bold tracking-tight text-slate-900">後日販売（合計金額には含まれません）</h2>' + list(DATA.laterSale) + "</div>";
