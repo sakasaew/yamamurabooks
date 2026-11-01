@@ -901,6 +901,12 @@
           '<div class="tb-price">' + yen(it.price) + "</div></li>").join("") + "</ul>";
       }
       function sum(items) { return items.reduce((a, it) => a + it.price, 0); }
+      function deadlineHtml(s) {
+        const parts = String(s).split("〜");
+        const y = (parts[0].match(/^\d{4}年/) || [""])[0];
+        if (parts.length !== 2 || !y) return esc(s);
+        return '<span class="tb-dr"><i>' + esc(y) + '</i><i class="tb-dd">' + esc(parts[0].slice(y.length)) + '〜</i><i class="tb-dd">' + esc(parts[1]) + '</i></span>';
+      }
 
       function render(code) {
         const p = DATA.patterns.find(x => x.code === code);
@@ -920,7 +926,7 @@
              "<dt>副教材 小計</dt><dd id='sub-sb'>" + yen(sum(sb)) + "</dd>" +
              "<dt>販売手数料・送料</dt><dd id='sub-ship'>" + (ship ? yen(ship) : "—") + "</dd></dl>" +
              '<div class="tb-total"><span class="font-bold">合計金額</span><b id="total" data-total="' + total + '">' + yen(total) + "</b></div>" +
-             '<div class="tb-deadline"><span>お支払い期間（払込票）</span><b>' + esc(DATA.deadline).replace('〜', '〜<br>') + '</b></div>' +
+             '<div class="tb-deadline"><span>お支払い期間（払込票）</span><b>' + deadlineHtml(DATA.deadline) + '</b></div>' +
              '<p class="mt-3 text-sm text-slate-500">合計金額は払込票の金額と同じです。金額はすべて税込です（教科書は非課税）。</p></div>';
         if (DATA.laterSale.length) {
           later = '<div class="tb-later"><h2 class="text-xl font-bold tracking-tight text-slate-900">後日販売（合計金額には含まれません）</h2>' + list(DATA.laterSale) + "</div>";

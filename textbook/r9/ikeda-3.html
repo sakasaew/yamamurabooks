@@ -34,7 +34,10 @@
       .tb-total b{font-size:1.9rem;font-variant-numeric:tabular-nums}
       .tb-deadline{container-type:inline-size;margin-top:1rem;border:2px solid #B42318;background:#FEF3F2;border-radius:.75rem;padding:.7rem .9rem;text-align:center;color:#B42318}
       .tb-deadline span{display:block;font-size:.9rem;font-weight:700}
-      .tb-deadline b{display:block;margin-top:.1rem;font-size:clamp(.7rem,7.6cqi,1.35rem);font-weight:900;line-height:1.35}
+      .tb-deadline b{display:block;margin-top:.1rem;font-size:min(1.2rem,8cqi);font-weight:900;line-height:1.35}
+      .tb-deadline .tb-dr{display:inline-block;font-size:inherit;font-weight:inherit;text-align:left;font-variant-numeric:tabular-nums}
+      .tb-deadline .tb-dr i{display:block;font-style:normal}
+      .tb-deadline .tb-dr .tb-dd{font-size:min(1.7rem,11.5cqi);line-height:1.3}
       .tb-later{margin-top:2rem;border:2px solid #D1E4DD;border-radius:1rem;padding:1rem 1.25rem 1.25rem}
       @media (min-width:640px){.tb-total b{font-size:2.25rem}}
       /* タブレット幅：金額表の幅を絞り、書名と金額が離れすぎないようにする */
