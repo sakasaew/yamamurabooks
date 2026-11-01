@@ -368,10 +368,10 @@
   }
  },
  "ship": 1154,
- "deadline": "2027年3月22日（月）",
+ "deadline": "2027年3月12日（金）〜3月22日（月）",
  "starNote": "※印の教科書・副教材は、入荷の都合などで発送するセットに入っていません。入荷しだい学校へまとめてお届けし、学校からお渡しします（代金は合計金額に含まれています）。",
  "payLines": [
-  "お支払い：学校でお渡しする払込票で、コンビニまたはスマホ決済（PayPay・楽天ペイ・au PAY）でお支払いください。お支払い期限：2027年3月22日（月）",
+  "お支払い：学校でお渡しする払込票で、コンビニまたはスマホ決済（PayPay・楽天ペイ・au PAY）でお支払いください。お支払い期間：2027年3月12日（金）〜3月22日（月）",
   "期限を過ぎると払込票は使えません。期限後は、山村書店の口座へお振込みください（振込先はご案内に記載しております）。振込名義：受検番号。振込手数料はご負担ください。",
   "お支払いを確認したのち、ご自宅へ発送します。",
   "払込票やお振込みでご入金いただけなかった場合に限り、3月最終週以降、山村書店の店頭でも購入いただけます（現金のみ。ご来店の日を事前にご連絡ください）。"
@@ -443,7 +443,7 @@
              "<dt>副教材 小計</dt><dd id='sub-sb'>" + yen(sum(sb)) + "</dd>" +
              "<dt>送料</dt><dd id='sub-ship'>" + (ship ? yen(ship) : "—") + "</dd></dl>" +
              '<div class="tb-total"><span class="font-bold">合計金額</span><b id="total" data-total="' + total + '">' + yen(total) + "</b></div>" +
-             '<div class="tb-deadline"><span>お支払い期限（払込票）</span><b>' + esc(DATA.deadline) + '</b></div>' +
+             '<div class="tb-deadline"><span>お支払い期間（払込票）</span><b>' + esc(DATA.deadline) + '</b></div>' +
              '<p class="mt-3 text-sm text-slate-500">合計金額は払込票の金額と同じです。金額はすべて税込です（教科書は非課税）。</p></div>';
         if (DATA.laterSale.length) {
           later = '<div class="tb-later"><h2 class="text-xl font-bold tracking-tight text-slate-900">後日販売（合計金額には含まれません）</h2>' + list(DATA.laterSale) + "</div>";
