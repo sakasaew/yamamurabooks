@@ -54,12 +54,11 @@ https://www.yamamurabook.shop/
 - `main` で他の変更（#10〜#14 など）が入ったら、ユーザーの指示で `main` をこのブランチに**マージ**で取り込む（rebase はしない）。取り込んだあとは Tailwind を再ビルドする
 
 ### 公開前の作業メモ
-- 学年ページの金額データ（各ページと同名の `textbook/r9/ikeda-1.js` などの `DATA`）を、令和8年のダミーから令和9年のものに差し替える。**学年ページのscriptは、`_headers` のCSP（`script-src 'self'`）でインラインscriptが動かないため、HTMLの外の `.js` ファイルにしてある。HTMLに直接 `<script>` を書き戻さないこと**
-- 学年ページ上部の「ダミー（試作）：令和8年度のデータ・定価で表示しています」を消す
+- 学年ページの金額データは `textbook/r9/data/prices.json`（JSON を差し替えるだけで金額が変わる。表示コードは共通の `textbook/r9/grade.js`、各ページの学校・学年・お支払い開始日・文言は同名の `textbook/r9/ikeda-1.js` などの `window.TEXTBOOK_PAGE`）。正式な定価（3/1ごろ）が出たら JSON を差し替え、合計欄の「見本の金額は、令和9年度の予定価などによる概算です。」の注記（`grade.js`）を外す。この JSON は Web 用（社内用の項目 no・source・memo・fee_note・設定は入っていない）。社内用の「R9_金額データ.json」はリポジトリに入れない（URL を知っていれば誰でも読めるため）。後日販売（合計金額に含まれない）は JSON の `later_sales` から表示する。**学年ページのscriptは、`_headers` のCSP（`script-src 'self'`）でインラインscriptが動かないため、HTMLの外の `.js` ファイルにしてある。HTMLに直接 `<script>` を書き戻さないこと**
 - `textbook.html` と `faq.html` のFAQ「教科書の情報を知りたい」にある「※令和8年の情報です。」と、文部科学省ページのURLを更新する
 - 販売開始時期（前期4月16日以降、後期9月16日以降 など）の年度表記と日付を、令和9年度のものに更新する（ソースの「来年のタスク」コメントが目印。教科書ページとFAQの両方）
 - 学年ページは検索結果に出さない設定（noindex）で、`sitemap.xml` にも載せていない。公開時にこの扱いを変えるかはユーザーに確認する
-- 学年ページの `ikeda-1` は、コースが1つだけのため選択欄を隠している（`"single": true`）。コース説明は画面に出ないが、そのままでよい（ユーザー確認済み）
+- 学年ページの `ikeda-1` は、学科・選択内容が1つだけ（JSON の label は「全員共通」）のため、`grade.js` が選択欄を自動で隠す。label は画面に出ないが、そのままでよい（ユーザー確認済み）
 
 ### 教科書関連ページのURL一覧（プレビュー：`add-textbook-page` の状態）
 プレビューのベースURL: `https://add-textbook-page.yamamurabooks.pages.dev`（公開後は `https://www.yamamurabook.shop` に置き換わる）
