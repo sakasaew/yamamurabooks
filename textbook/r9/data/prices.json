@@ -1,0 +1,7345 @@
+{
+ "meta": {
+  "year": "令和9年度",
+  "generated_at": "2026-11-19 09:06",
+  "note": "金額は税込。教科書は非課税。正式な定価が出るまでは概算"
+ },
+ "patterns": [
+  {
+   "pattern_id": "OG1-01",
+   "school": "大垣工業",
+   "grade": 1,
+   "label": "機械工学科群",
+   "textbook": 15009,
+   "material": 13985,
+   "fee": 1000,
+   "total": 29994,
+   "due": "2027-03-22"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "school": "大垣工業",
+   "grade": 1,
+   "label": "電気・電子工学科群",
+   "textbook": 11558,
+   "material": 13845,
+   "fee": 1000,
+   "total": 26403,
+   "due": "2027-03-22"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "school": "大垣工業",
+   "grade": 1,
+   "label": "建設工学科群",
+   "textbook": 14770,
+   "material": 15065,
+   "fee": 1000,
+   "total": 30835,
+   "due": "2027-03-22"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "school": "大垣工業",
+   "grade": 1,
+   "label": "化学技術工学科",
+   "textbook": 13758,
+   "material": 12995,
+   "fee": 1000,
+   "total": 27753,
+   "due": "2027-03-22"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "school": "大垣工業",
+   "grade": 2,
+   "label": "機械工学科",
+   "textbook": 9430,
+   "material": 13412,
+   "fee": 0,
+   "total": 22842,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "school": "大垣工業",
+   "grade": 2,
+   "label": "電子機械工学科",
+   "textbook": 9430,
+   "material": 10437,
+   "fee": 0,
+   "total": 19867,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "school": "大垣工業",
+   "grade": 2,
+   "label": "土木工学科",
+   "textbook": 11056,
+   "material": 9812,
+   "fee": 0,
+   "total": 20868,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "school": "大垣工業",
+   "grade": 2,
+   "label": "建築工学科",
+   "textbook": 7736,
+   "material": 8282,
+   "fee": 0,
+   "total": 16018,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "school": "大垣工業",
+   "grade": 2,
+   "label": "化学技術工学科",
+   "textbook": 8246,
+   "material": 8452,
+   "fee": 0,
+   "total": 16698,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "school": "大垣工業",
+   "grade": 2,
+   "label": "電気工学科",
+   "textbook": 8587,
+   "material": 7392,
+   "fee": 0,
+   "total": 15979,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "school": "大垣工業",
+   "grade": 2,
+   "label": "電子工学科",
+   "textbook": 7305,
+   "material": 5402,
+   "fee": 0,
+   "total": 12707,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "school": "大垣工業",
+   "grade": 2,
+   "label": "情報技術工学科",
+   "textbook": 9171,
+   "material": 6472,
+   "fee": 0,
+   "total": 15643,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG3-01",
+   "school": "大垣工業",
+   "grade": 3,
+   "label": "機械工学科（専門コース）",
+   "textbook": 6758,
+   "material": 5409,
+   "fee": 0,
+   "total": 12167,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "school": "大垣工業",
+   "grade": 3,
+   "label": "電子機械工学科（数・物コース）",
+   "textbook": 9417,
+   "material": 5211,
+   "fee": 0,
+   "total": 14628,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG3-03",
+   "school": "大垣工業",
+   "grade": 3,
+   "label": "電子機械工学科（専門コース）",
+   "textbook": 7309,
+   "material": 6069,
+   "fee": 0,
+   "total": 13378,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG3-04",
+   "school": "大垣工業",
+   "grade": 3,
+   "label": "建築工学科",
+   "textbook": 7675,
+   "material": 3429,
+   "fee": 0,
+   "total": 11104,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG3-05",
+   "school": "大垣工業",
+   "grade": 3,
+   "label": "土木工学科",
+   "textbook": 9578,
+   "material": 3429,
+   "fee": 0,
+   "total": 13007,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "school": "大垣工業",
+   "grade": 3,
+   "label": "化学技術工学科（数・物コース）",
+   "textbook": 7262,
+   "material": 5211,
+   "fee": 0,
+   "total": 12473,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG3-07",
+   "school": "大垣工業",
+   "grade": 3,
+   "label": "化学技術工学科（専門コース）",
+   "textbook": 5154,
+   "material": 3429,
+   "fee": 0,
+   "total": 8583,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG3-08",
+   "school": "大垣工業",
+   "grade": 3,
+   "label": "電気工学科",
+   "textbook": 7053,
+   "material": 3429,
+   "fee": 0,
+   "total": 10482,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "school": "大垣工業",
+   "grade": 3,
+   "label": "電子工学科（数・物コース）",
+   "textbook": 8975,
+   "material": 5211,
+   "fee": 0,
+   "total": 14186,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG3-10",
+   "school": "大垣工業",
+   "grade": 3,
+   "label": "電子工学科（専門コース）",
+   "textbook": 10980,
+   "material": 4099,
+   "fee": 0,
+   "total": 15079,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "school": "大垣工業",
+   "grade": 3,
+   "label": "情報技術工学科（数・物コース）",
+   "textbook": 9943,
+   "material": 5211,
+   "fee": 0,
+   "total": 15154,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "OG3-12",
+   "school": "大垣工業",
+   "grade": 3,
+   "label": "情報技術工学科（専門コース）",
+   "textbook": 8778,
+   "material": 3429,
+   "fee": 0,
+   "total": 12207,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "school": "池田",
+   "grade": 1,
+   "label": "全員共通",
+   "textbook": 9429,
+   "material": 21337,
+   "fee": 1154,
+   "total": 31920,
+   "due": "2027-03-22"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "school": "池田",
+   "grade": 2,
+   "label": "理系・物理選択",
+   "textbook": 10560,
+   "material": 17339,
+   "fee": 1200,
+   "total": 29099,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "school": "池田",
+   "grade": 2,
+   "label": "理系・生物選択",
+   "textbook": 10640,
+   "material": 17126,
+   "fee": 1200,
+   "total": 28966,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "school": "池田",
+   "grade": 2,
+   "label": "文系・世界史・基礎数学",
+   "textbook": 9159,
+   "material": 14589,
+   "fee": 1200,
+   "total": 24948,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "school": "池田",
+   "grade": 2,
+   "label": "文系・世界史・数学B",
+   "textbook": 9950,
+   "material": 15942,
+   "fee": 1200,
+   "total": 27092,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "school": "池田",
+   "grade": 2,
+   "label": "文系・日本史・基礎数学",
+   "textbook": 9164,
+   "material": 14602,
+   "fee": 1200,
+   "total": 24966,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "school": "池田",
+   "grade": 2,
+   "label": "文系・日本史・数学B",
+   "textbook": 9955,
+   "material": 15955,
+   "fee": 1200,
+   "total": 27110,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "school": "池田",
+   "grade": 2,
+   "label": "文系・日本史・体育A",
+   "textbook": 9164,
+   "material": 13700,
+   "fee": 1200,
+   "total": 24064,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-01",
+   "school": "池田",
+   "grade": 3,
+   "label": "理系（自然科学選択）",
+   "textbook": 3882,
+   "material": 4864,
+   "fee": 900,
+   "total": 9646,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-02",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・発展数学／生命医療／英語探究",
+   "textbook": 3138,
+   "material": 7560,
+   "fee": 900,
+   "total": 11598,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-03",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・発展数学／生命医療／応用情報",
+   "textbook": 3138,
+   "material": 5843,
+   "fee": 900,
+   "total": 9881,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-04",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・発展数学／生命医療／手芸か体育B",
+   "textbook": 3138,
+   "material": 4150,
+   "fee": 900,
+   "total": 8188,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-05",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・防災／エッセイ／音楽2／応用情報",
+   "textbook": 4531,
+   "material": 4655,
+   "fee": 900,
+   "total": 10086,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-06",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・防災／エッセイ／国語表現／応用情報",
+   "textbook": 5082,
+   "material": 5458,
+   "fee": 900,
+   "total": 11440,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-07",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・防災／世界遺産／音楽2／英語探究",
+   "textbook": 4531,
+   "material": 7021,
+   "fee": 900,
+   "total": 12452,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-08",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・防災／世界遺産／音楽2／手芸か体育B",
+   "textbook": 4531,
+   "material": 3611,
+   "fee": 900,
+   "total": 9042,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-09",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・防災／世界遺産／国語表現／英語探究",
+   "textbook": 5082,
+   "material": 7824,
+   "fee": 900,
+   "total": 13806,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-10",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・防災／世界遺産／国語表現／応用情報",
+   "textbook": 5082,
+   "material": 6107,
+   "fee": 900,
+   "total": 12089,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-11",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・防災／世界遺産／国語表現／手芸か体育B",
+   "textbook": 5082,
+   "material": 4414,
+   "fee": 900,
+   "total": 10396,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-12",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・防災／世界遺産／美術2／手芸か体育B",
+   "textbook": 5181,
+   "material": 3611,
+   "fee": 900,
+   "total": 9692,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-13",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・防災／福祉／生活と福祉／応用情報",
+   "textbook": 4172,
+   "material": 5484,
+   "fee": 900,
+   "total": 10556,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-14",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・防災／福祉／生活と福祉／手芸か体育B",
+   "textbook": 4172,
+   "material": 3791,
+   "fee": 900,
+   "total": 8863,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-15",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・防災／保育音楽／音楽2／応用情報",
+   "textbook": 4531,
+   "material": 5744,
+   "fee": 900,
+   "total": 11175,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-16",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・防災／保育音楽／音楽2／手芸か体育B",
+   "textbook": 4531,
+   "material": 4051,
+   "fee": 900,
+   "total": 9482,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-17",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・保育基礎／保育音楽／音楽2／英語探究",
+   "textbook": 4043,
+   "material": 7461,
+   "fee": 900,
+   "total": 12404,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-18",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・保育基礎／保育音楽／音楽2／手芸か体育B",
+   "textbook": 4043,
+   "material": 4051,
+   "fee": 900,
+   "total": 8994,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-19",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・保育基礎／保育音楽／国語表現／英語探究",
+   "textbook": 4594,
+   "material": 8264,
+   "fee": 900,
+   "total": 13758,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-20",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・保育基礎／保育音楽／国語表現／手芸か体育B",
+   "textbook": 4594,
+   "material": 4854,
+   "fee": 900,
+   "total": 10348,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-21",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・保育基礎／保育音楽／美術2／応用情報",
+   "textbook": 4693,
+   "material": 5744,
+   "fee": 900,
+   "total": 11337,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-22",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・時事／エッセイ／国語表現／英語探究",
+   "textbook": 4048,
+   "material": 7175,
+   "fee": 900,
+   "total": 12123,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-23",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・時事／エッセイ／国語表現／応用情報",
+   "textbook": 4048,
+   "material": 5458,
+   "fee": 900,
+   "total": 10406,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-24",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・時事／エッセイ／国語表現／手芸か体育B",
+   "textbook": 4048,
+   "material": 3765,
+   "fee": 900,
+   "total": 8713,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-25",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・時事／世界遺産／音楽2／英語探究",
+   "textbook": 3497,
+   "material": 7021,
+   "fee": 900,
+   "total": 11418,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-26",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・時事／世界遺産／音楽2／応用情報",
+   "textbook": 3497,
+   "material": 5304,
+   "fee": 900,
+   "total": 9701,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-27",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・時事／世界遺産／音楽2／手芸か体育B",
+   "textbook": 3497,
+   "material": 3611,
+   "fee": 900,
+   "total": 8008,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-28",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・時事／世界遺産／国語表現／英語探究",
+   "textbook": 4048,
+   "material": 7824,
+   "fee": 900,
+   "total": 12772,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-29",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・時事／世界遺産／国語表現／応用情報",
+   "textbook": 4048,
+   "material": 6107,
+   "fee": 900,
+   "total": 11055,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-30",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・時事／世界遺産／国語表現／手芸か体育B",
+   "textbook": 4048,
+   "material": 4414,
+   "fee": 900,
+   "total": 9362,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-31",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・時事／世界遺産／美術2／英語探究",
+   "textbook": 4147,
+   "material": 7021,
+   "fee": 900,
+   "total": 12068,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-32",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・時事／世界遺産／美術2／手芸か体育B",
+   "textbook": 4147,
+   "material": 3611,
+   "fee": 900,
+   "total": 8658,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-33",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・時事／福祉／生活と福祉／応用情報",
+   "textbook": 3138,
+   "material": 5484,
+   "fee": 900,
+   "total": 9522,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-34",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・時事／保育音楽／音楽2／英語探究",
+   "textbook": 3497,
+   "material": 7461,
+   "fee": 900,
+   "total": 11858,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-35",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・時事／保育音楽／国語表現／英語探究",
+   "textbook": 4048,
+   "material": 8264,
+   "fee": 900,
+   "total": 13212,
+   "due": "2027-03-15"
+  },
+  {
+   "pattern_id": "IK3-36",
+   "school": "池田",
+   "grade": 3,
+   "label": "文系・時事／保育音楽／国語表現／手芸か体育B",
+   "textbook": 4048,
+   "material": 4854,
+   "fee": 900,
+   "total": 9802,
+   "due": "2027-03-15"
+  }
+ ],
+ "items": [
+  {
+   "id": "IK1-001",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-903",
+   "title": "改訂版 高等学校 現代の国語",
+   "price": 651,
+   "later": false
+  },
+  {
+   "id": "IK1-002",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-902",
+   "title": "改訂版 高等学校 言語文化",
+   "price": 812,
+   "later": false
+  },
+  {
+   "id": "IK1-003",
+   "kubun": "教科書",
+   "publisher": "山川",
+   "code": "081-903",
+   "title": "わたしたちの歴史 日本から世界へ 改訂版",
+   "price": 800,
+   "later": false
+  },
+  {
+   "id": "IK1-004",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-904",
+   "title": "改訂版 新編 数学Ⅰ",
+   "price": 858,
+   "later": false
+  },
+  {
+   "id": "IK1-005",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-904",
+   "title": "改訂版 新編 数学A",
+   "price": 680,
+   "later": false
+  },
+  {
+   "id": "IK1-006",
+   "kubun": "教科書",
+   "publisher": "東書",
+   "code": "002-902",
+   "title": "改訂 新編物理基礎",
+   "price": 914,
+   "later": false
+  },
+  {
+   "id": "IK1-007",
+   "kubun": "教科書",
+   "publisher": "啓林館",
+   "code": "061-902",
+   "title": "ⅰ版 生物基礎 改訂版",
+   "price": 1037,
+   "later": false
+  },
+  {
+   "id": "IK1-008",
+   "kubun": "教科書",
+   "publisher": "大修館",
+   "code": "050-901",
+   "title": "現代高等保健体育 改訂版",
+   "price": 766,
+   "later": false
+  },
+  {
+   "id": "IK1-009",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-902",
+   "title": "Revised BIG DIPPER English Communication Ⅰ",
+   "price": 740,
+   "later": false
+  },
+  {
+   "id": "IK1-010",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-904",
+   "title": "Revised BIG DIPPER English Logic and Expression Ⅰ",
+   "price": 683,
+   "later": false
+  },
+  {
+   "id": "IK1-011",
+   "kubun": "教科書",
+   "publisher": "東書",
+   "code": "002-901",
+   "title": "家庭基礎 自立・共生・創造",
+   "price": 639,
+   "later": false
+  },
+  {
+   "id": "IK1-012",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "702",
+   "title": "理数探究基礎",
+   "price": 849,
+   "later": false
+  },
+  {
+   "id": "IK1-013",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版 高等学校現代の国語 準拠ワーク",
+   "price": 605,
+   "later": false
+  },
+  {
+   "id": "IK1-014",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版 高等学校言語文化 準拠ワーク",
+   "price": 660,
+   "later": false
+  },
+  {
+   "id": "IK1-015",
+   "kubun": "副教材",
+   "publisher": "尚文出版",
+   "code": "",
+   "title": "新しい古典の学習 2in1スタイル 学ぶぞ古文と漢文",
+   "price": 737,
+   "later": false
+  },
+  {
+   "id": "IK1-016",
+   "kubun": "副教材",
+   "publisher": "尚文出版",
+   "code": "",
+   "title": "新しい古典の学習 2in1スタイル 学ぶぞ古文と漢文 基本練習ノート",
+   "price": 583,
+   "later": false
+  },
+  {
+   "id": "IK1-017",
+   "kubun": "副教材",
+   "publisher": "尚文出版",
+   "code": "",
+   "title": "入試対策ベストセレクション古文単語325 改訂版",
+   "price": 968,
+   "later": false
+  },
+  {
+   "id": "IK1-018",
+   "kubun": "副教材",
+   "publisher": "尚文出版",
+   "code": "",
+   "title": "新装版 実践文字力トリプルチェック",
+   "price": 693,
+   "later": false
+  },
+  {
+   "id": "IK1-019",
+   "kubun": "副教材",
+   "publisher": "東京書籍",
+   "code": "",
+   "title": "高校国語へのステップ",
+   "price": 380,
+   "later": false
+  },
+  {
+   "id": "IK1-020",
+   "kubun": "副教材",
+   "publisher": "山川出版",
+   "code": "",
+   "title": "わたしたちの歴史 日本から世界へ ノート",
+   "price": 825,
+   "later": false
+  },
+  {
+   "id": "IK1-021",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "数学入門スタートワーク",
+   "price": 385,
+   "later": false
+  },
+  {
+   "id": "IK1-022",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版 新課程 Study-Upノート数学Ⅰ",
+   "price": 572,
+   "later": false
+  },
+  {
+   "id": "IK1-023",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版 新課程 Study-Upノート数学A",
+   "price": 517,
+   "later": false
+  },
+  {
+   "id": "IK1-024",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版 チャート式 基礎と演習数学Ⅰ+A(白)",
+   "price": 1914,
+   "later": false
+  },
+  {
+   "id": "IK1-025",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "教科書準拠 新編 数学Ⅱ ナビゲーションノートシリーズ 式と証明,複素数と方程式",
+   "price": 297,
+   "later": false
+  },
+  {
+   "id": "IK1-026",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "新課程 Study-Upノート数学Ⅱ",
+   "price": 770,
+   "later": false
+  },
+  {
+   "id": "IK1-027",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "三訂版 リードLightノート 物理基礎",
+   "price": 836,
+   "later": false
+  },
+  {
+   "id": "IK1-028",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "三訂版 リードLightノート 生物基礎",
+   "price": 792,
+   "later": false
+  },
+  {
+   "id": "IK1-029",
+   "kubun": "副教材",
+   "publisher": "大修館",
+   "code": "",
+   "title": "現代高等保健体育ノート 改訂版",
+   "price": 979,
+   "later": false
+  },
+  {
+   "id": "IK1-030",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版 Reach for the Big Dipper 英語の基礎定着ノート",
+   "price": 407,
+   "later": false
+  },
+  {
+   "id": "IK1-031",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版 Big Dipper English Communication Ⅰ ベーシックノート",
+   "price": 715,
+   "later": false
+  },
+  {
+   "id": "IK1-032",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版 LEAP Basic 必携 英単語",
+   "price": 1078,
+   "later": false
+  },
+  {
+   "id": "IK1-033",
+   "kubun": "副教材",
+   "publisher": "美誠社",
+   "code": "",
+   "title": "リスニング問題集 オールイアーズ改訂版ベーシック",
+   "price": 770,
+   "later": false
+  },
+  {
+   "id": "IK1-034",
+   "kubun": "副教材",
+   "publisher": "いいずな",
+   "code": "",
+   "title": "Treasure Hunt 1 3rd Edition",
+   "price": 891,
+   "later": false
+  },
+  {
+   "id": "IK1-035",
+   "kubun": "副教材",
+   "publisher": "いいずな",
+   "code": "",
+   "title": "Treasure Hunt 2 3rd Edition",
+   "price": 891,
+   "later": false
+  },
+  {
+   "id": "IK1-036",
+   "kubun": "副教材",
+   "publisher": "桐原書店",
+   "code": "",
+   "title": "WHAT'S UP? for SDGs 【BASIC】",
+   "price": 748,
+   "later": false
+  },
+  {
+   "id": "IK1-037",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版 Big Dipper English Logic and Expression Ⅰ ワークブック",
+   "price": 704,
+   "later": false
+  },
+  {
+   "id": "IK1-038",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版 チャート式 BIG DIPPER ビッグ ディッパー高校英語",
+   "price": 1650,
+   "later": false
+  },
+  {
+   "id": "IK1-039",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "生活学Navi 資料+成分表 2026",
+   "price": 970,
+   "later": false
+  },
+  {
+   "id": "IK2-001",
+   "kubun": "教科書",
+   "publisher": "大修館",
+   "code": "050-901",
+   "title": "論理国語 改訂版",
+   "price": 968,
+   "later": false
+  },
+  {
+   "id": "IK2-002",
+   "kubun": "教科書",
+   "publisher": "三省堂",
+   "code": "015-901",
+   "title": "精選 文学国語 改訂版",
+   "price": 1034,
+   "later": false
+  },
+  {
+   "id": "IK2-003",
+   "kubun": "教科書",
+   "publisher": "大修館",
+   "code": "050-901",
+   "title": "古典探究 古文編 改訂版",
+   "price": 670,
+   "later": false
+  },
+  {
+   "id": "IK2-004",
+   "kubun": "教科書",
+   "publisher": "大修館",
+   "code": "050-902",
+   "title": "古典探究 漢文編 改訂版",
+   "price": 448,
+   "later": false
+  },
+  {
+   "id": "IK2-005",
+   "kubun": "教科書",
+   "publisher": "山川",
+   "code": "081-902",
+   "title": "高校日本史 改訂版",
+   "price": 928,
+   "later": false
+  },
+  {
+   "id": "IK2-006",
+   "kubun": "教科書",
+   "publisher": "山川",
+   "code": "081-902",
+   "title": "高校世界史 改訂版",
+   "price": 923,
+   "later": false
+  },
+  {
+   "id": "IK2-007",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-902",
+   "title": "改訂版 高等学校 公共 これからの社会について考える",
+   "price": 751,
+   "later": false
+  },
+  {
+   "id": "IK2-008",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-904",
+   "title": "改訂版 新編 数学Ⅱ",
+   "price": 903,
+   "later": false
+  },
+  {
+   "id": "IK2-010",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-904",
+   "title": "改訂版 新編 数学Ｂ",
+   "price": 791,
+   "later": false
+  },
+  {
+   "id": "IK2-011",
+   "kubun": "教科書",
+   "publisher": "東書",
+   "code": "002-901",
+   "title": "改訂 物理",
+   "price": 1292,
+   "later": false
+  },
+  {
+   "id": "IK2-012",
+   "kubun": "教科書",
+   "publisher": "東書",
+   "code": "002-902",
+   "title": "改訂 新編化学基礎",
+   "price": 917,
+   "later": false
+  },
+  {
+   "id": "IK2-013",
+   "kubun": "教科書",
+   "publisher": "東書",
+   "code": "002-902",
+   "title": "新編化学",
+   "price": 1275,
+   "later": false
+  },
+  {
+   "id": "IK2-015",
+   "kubun": "教科書",
+   "publisher": "啓林館",
+   "code": "061-901",
+   "title": "高等学校 生物 改訂版",
+   "price": 1372,
+   "later": false
+  },
+  {
+   "id": "IK2-016",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-902",
+   "title": "Revised BIG DIPPER English Communication Ⅱ",
+   "price": 759,
+   "later": false
+  },
+  {
+   "id": "IK2-017",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-904",
+   "title": "Revised BIG DIPPER English Logic and Expression Ⅱ",
+   "price": 669,
+   "later": false
+  },
+  {
+   "id": "IK2-018",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-901",
+   "title": "改訂版 高等学校 情報Ⅰ",
+   "price": 1117,
+   "later": false
+  },
+  {
+   "id": "IK2-019",
+   "kubun": "副教材",
+   "publisher": "大修館書店",
+   "code": "",
+   "title": "論理国語 学習ノート",
+   "price": 803,
+   "later": false
+  },
+  {
+   "id": "IK2-020",
+   "kubun": "副教材",
+   "publisher": "三省堂",
+   "code": "",
+   "title": "精選文学国語 学習課題ノート",
+   "price": 748,
+   "later": false
+  },
+  {
+   "id": "IK2-021",
+   "kubun": "副教材",
+   "publisher": "大修館書店",
+   "code": "",
+   "title": "古典探究 古文編 学習ノート",
+   "price": 616,
+   "later": false
+  },
+  {
+   "id": "IK2-022",
+   "kubun": "副教材",
+   "publisher": "大修館書店",
+   "code": "",
+   "title": "古典探究 漢文編 学習ノート",
+   "price": 572,
+   "later": false
+  },
+  {
+   "id": "IK2-023",
+   "kubun": "副教材",
+   "publisher": "いいずな",
+   "code": "",
+   "title": "大学入試国語頻出問題1200五訂版",
+   "price": 1595,
+   "later": false
+  },
+  {
+   "id": "IK2-024",
+   "kubun": "副教材",
+   "publisher": "東京法令",
+   "code": "",
+   "title": "歴史風景館 世界史のミュージアム",
+   "price": 1010,
+   "later": false
+  },
+  {
+   "id": "IK2-025",
+   "kubun": "副教材",
+   "publisher": "山川出版社",
+   "code": "",
+   "title": "高校世界史基本用語問題集ツインズ・マスター",
+   "price": 990,
+   "later": false
+  },
+  {
+   "id": "IK2-026",
+   "kubun": "副教材",
+   "publisher": "第一学習社",
+   "code": "",
+   "title": "最新日本史図表",
+   "price": 1023,
+   "later": false
+  },
+  {
+   "id": "IK2-027",
+   "kubun": "副教材",
+   "publisher": "山川出版社",
+   "code": "",
+   "title": "高校日本史基本用語問題集ツインズ・マスター",
+   "price": 990,
+   "later": false
+  },
+  {
+   "id": "IK2-028",
+   "kubun": "副教材",
+   "publisher": "第一学習社",
+   "code": "",
+   "title": "クローズアップ 公共2026",
+   "price": 946,
+   "later": false
+  },
+  {
+   "id": "IK2-029",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "スタディ公共",
+   "price": 803,
+   "later": false
+  },
+  {
+   "id": "IK2-030",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "新課程 Study-Upノート数学B",
+   "price": 594,
+   "later": false
+  },
+  {
+   "id": "IK2-031",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "新課程 Study-Upノート数学C",
+   "price": 638,
+   "later": false
+  },
+  {
+   "id": "IK2-032",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "新課程 基本と演習テーマ 数学Ⅱ+B",
+   "price": 1045,
+   "later": false
+  },
+  {
+   "id": "IK2-033",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "新課程 チャート式 基礎と演習 数学Ⅱ+B+C(ベクトル)",
+   "price": 2211,
+   "later": false
+  },
+  {
+   "id": "IK2-034",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "新課程 チャート式 基礎と演習 数学Ⅱ(白)",
+   "price": 1485,
+   "later": false
+  },
+  {
+   "id": "IK2-035",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "新課程 基本と演習テーマ 数学Ⅲ",
+   "price": 792,
+   "later": false
+  },
+  {
+   "id": "IK2-036",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "新課程 基本と演習テーマ 数学C",
+   "price": 638,
+   "later": false
+  },
+  {
+   "id": "IK2-037",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "教科書準拠 新編 数学C ナビゲーションノートシリーズ ベクトル",
+   "price": 297,
+   "later": false
+  },
+  {
+   "id": "IK2-038",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "新課程 練習ドリル 数学Ⅰ 標準編",
+   "price": 451,
+   "later": false
+  },
+  {
+   "id": "IK2-039",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "新課程 練習ドリル 数学A 標準編",
+   "price": 451,
+   "later": false
+  },
+  {
+   "id": "IK2-040",
+   "kubun": "副教材",
+   "publisher": "啓林館",
+   "code": "",
+   "title": "センサー物理基礎+物理 4th Edition",
+   "price": 1170,
+   "later": false
+  },
+  {
+   "id": "IK2-041",
+   "kubun": "副教材",
+   "publisher": "東京書籍",
+   "code": "",
+   "title": "ニューサポート 新編化学基礎",
+   "price": 650,
+   "later": false
+  },
+  {
+   "id": "IK2-042",
+   "kubun": "副教材",
+   "publisher": "東京書籍",
+   "code": "",
+   "title": "ニューグローバル 化学基礎+化学",
+   "price": 1150,
+   "later": false
+  },
+  {
+   "id": "IK2-043",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版 リードLightノート 生物",
+   "price": 957,
+   "later": false
+  },
+  {
+   "id": "IK2-044",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "Big Dipper English Communication II ベーシックノート",
+   "price": 682,
+   "later": false
+  },
+  {
+   "id": "IK2-045",
+   "kubun": "副教材",
+   "publisher": "桐原書店",
+   "code": "",
+   "title": "Hyper Listening 4th Edition Elementary",
+   "price": 770,
+   "later": false
+  },
+  {
+   "id": "IK2-046",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "Big Dipper English Logic and ExpressionⅡワークブック",
+   "price": 660,
+   "later": false
+  },
+  {
+   "id": "IK2-047",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版 高校情報Ⅰ サポートノート",
+   "price": 627,
+   "later": false
+  },
+  {
+   "id": "IK2-048",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "ポイントでマスター 基礎からはじめる 情報リテラシー Office2021",
+   "price": 730,
+   "later": false
+  },
+  {
+   "id": "IK3-001",
+   "kubun": "教科書",
+   "publisher": "大修館",
+   "code": "050-901",
+   "title": "国語表現 改訂版",
+   "price": 910,
+   "later": false
+  },
+  {
+   "id": "IK3-002",
+   "kubun": "教科書",
+   "publisher": "帝国",
+   "code": "046-902",
+   "title": "高校生の地理総合",
+   "price": 777,
+   "later": false
+  },
+  {
+   "id": "IK3-003",
+   "kubun": "教科書",
+   "publisher": "帝国",
+   "code": "046-901",
+   "title": "新詳高等地図",
+   "price": 1626,
+   "later": false
+  },
+  {
+   "id": "IK3-004",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-904",
+   "title": "改訂版 新編 数学Ｃ",
+   "price": 744,
+   "later": false
+  },
+  {
+   "id": "IK3-005",
+   "kubun": "教科書",
+   "publisher": "東書",
+   "code": "002-901",
+   "title": "改訂 地学基礎",
+   "price": 1034,
+   "later": false
+  },
+  {
+   "id": "IK3-006",
+   "kubun": "教科書",
+   "publisher": "大修館",
+   "code": "050-901",
+   "title": "音楽Ⅱ 改訂版 Ｔｕｔｔｉ＋",
+   "price": 359,
+   "later": false
+  },
+  {
+   "id": "IK3-007",
+   "kubun": "教科書",
+   "publisher": "日文",
+   "code": "116-901",
+   "title": "新・高校生の美術２",
+   "price": 1009,
+   "later": false
+  },
+  {
+   "id": "IK3-008",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "714",
+   "title": "BIG DIPPER English Communication Ⅲ",
+   "price": 735,
+   "later": false
+  },
+  {
+   "id": "IK3-009",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "007-901",
+   "title": "保育基礎 新訂版",
+   "price": 546,
+   "later": false
+  },
+  {
+   "id": "IK3-010",
+   "kubun": "副教材",
+   "publisher": "大修館",
+   "code": "",
+   "title": "国語表現 改訂版 基礎練習ノート",
+   "price": 803,
+   "later": false
+  },
+  {
+   "id": "IK3-011",
+   "kubun": "副教材",
+   "publisher": "帝国書院",
+   "code": "",
+   "title": "図説地理資料 世界の諸地域NOW2026",
+   "price": 1020,
+   "later": false
+  },
+  {
+   "id": "IK3-012",
+   "kubun": "副教材",
+   "publisher": "帝国書院",
+   "code": "",
+   "title": "高校生の地理総合ノート",
+   "price": 710,
+   "later": false
+  },
+  {
+   "id": "IK3-013",
+   "kubun": "副教材",
+   "publisher": "マイナビ",
+   "code": "",
+   "title": "はじめて学ぶ世界遺産50 第5版 世界遺産検定4級公式テキスト",
+   "price": 1320,
+   "later": false
+  },
+  {
+   "id": "IK3-014",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "標準演習PLAN100 数学Ⅰ・A+Ⅱ・B・C 受験編",
+   "price": 880,
+   "later": false
+  },
+  {
+   "id": "IK3-015",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "リンク 数学演習 数学Ⅰ・A+Ⅱ・B・C a+b+c",
+   "price": 869,
+   "later": false
+  },
+  {
+   "id": "IK3-016",
+   "kubun": "副教材",
+   "publisher": "浜島書店",
+   "code": "",
+   "title": "二訂版 ニューステージ 生物図表",
+   "price": 990,
+   "later": false
+  },
+  {
+   "id": "IK3-017",
+   "kubun": "副教材",
+   "publisher": "教芸",
+   "code": "",
+   "title": "2訂版 歌唱教材伴奏法",
+   "price": 1760,
+   "later": false
+  },
+  {
+   "id": "IK3-018",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "Big Dipper English Communication Ⅲ ベーシックノート",
+   "price": 561,
+   "later": false
+  },
+  {
+   "id": "IK3-019",
+   "kubun": "副教材",
+   "publisher": "アルク",
+   "code": "",
+   "title": "即興スピーキング!",
+   "price": 1320,
+   "later": false
+  },
+  {
+   "id": "IK3-020",
+   "kubun": "副教材",
+   "publisher": "アルク",
+   "code": "",
+   "title": "発音入門 音トレーニングドリル",
+   "price": 1320,
+   "later": false
+  },
+  {
+   "id": "IK3-021",
+   "kubun": "副教材",
+   "publisher": "桐原書店",
+   "code": "",
+   "title": "AUDIO BOOK A Dog of Flanders",
+   "price": 770,
+   "later": false
+  },
+  {
+   "id": "IK3-022",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版 BIG DIPPER ENGLISH GRAMMAR in 21 STAGES 21ディッパー英文法",
+   "price": 671,
+   "later": false
+  },
+  {
+   "id": "IK3-023",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "ベストフィット情報Ⅰ New Edition",
+   "price": 890,
+   "later": false
+  },
+  {
+   "id": "IK3-024",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版 大学入学共通テスト対策 情報Ⅰ徹底演習",
+   "price": 803,
+   "later": false
+  },
+  {
+   "id": "IK3-025",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "生活と福祉",
+   "price": 1500,
+   "later": false
+  },
+  {
+   "id": "OG1-001",
+   "kubun": "教科書",
+   "publisher": "東書",
+   "code": "002-901",
+   "title": "新編言語文化",
+   "price": 812,
+   "later": false
+  },
+  {
+   "id": "OG1-002",
+   "kubun": "教科書",
+   "publisher": "第一",
+   "code": "183-902",
+   "title": "高等学校 改訂版 新公共",
+   "price": 751,
+   "later": false
+  },
+  {
+   "id": "OG1-003",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-904",
+   "title": "改訂版 新編 数学Ⅰ",
+   "price": 858,
+   "later": false
+  },
+  {
+   "id": "OG1-004",
+   "kubun": "教科書",
+   "publisher": "東書",
+   "code": "002-902",
+   "title": "改訂 新編化学基礎",
+   "price": 917,
+   "later": false
+  },
+  {
+   "id": "OG1-005",
+   "kubun": "教科書",
+   "publisher": "大修館",
+   "code": "050-901",
+   "title": "現代高等保健体育 改訂版",
+   "price": 766,
+   "later": false
+  },
+  {
+   "id": "OG1-006",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-903",
+   "title": "Revised COMET English Communication Ⅰ",
+   "price": 740,
+   "later": false
+  },
+  {
+   "id": "OG1-007",
+   "kubun": "教科書",
+   "publisher": "第一",
+   "code": "183-901",
+   "title": "高等学校 改訂版 家庭基礎 持続可能な未来をつくる",
+   "price": 639,
+   "later": false
+  },
+  {
+   "id": "OG1-008",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "701",
+   "title": "工業技術基礎",
+   "price": 1869,
+   "later": false
+  },
+  {
+   "id": "OG1-009",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "007-902",
+   "title": "機械工作1 新訂版",
+   "price": 2440,
+   "later": false
+  },
+  {
+   "id": "OG1-010",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "007-903",
+   "title": "機械工作2 新訂版",
+   "price": 1516,
+   "later": false
+  },
+  {
+   "id": "OG1-011",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "702",
+   "title": "機械製図",
+   "price": 2042,
+   "later": false
+  },
+  {
+   "id": "OG1-012",
+   "kubun": "教科書",
+   "publisher": "オーム",
+   "code": "723",
+   "title": "工業情報数理",
+   "price": 1659,
+   "later": false
+  },
+  {
+   "id": "OG1-013",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "007-901",
+   "title": "工業情報数理 新訂版",
+   "price": 1659,
+   "later": false
+  },
+  {
+   "id": "OG1-014",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "007-906",
+   "title": "電気回路1 新訂版",
+   "price": 1565,
+   "later": false
+  },
+  {
+   "id": "OG1-015",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "007-907",
+   "title": "電気回路2 新訂版",
+   "price": 982,
+   "later": false
+  },
+  {
+   "id": "OG1-016",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "705",
+   "title": "建築設計製図",
+   "price": 2135,
+   "later": false
+  },
+  {
+   "id": "OG1-017",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "714",
+   "title": "建築構造",
+   "price": 1646,
+   "later": false
+  },
+  {
+   "id": "OG1-018",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "715",
+   "title": "測量",
+   "price": 1978,
+   "later": false
+  },
+  {
+   "id": "OG1-019",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "716",
+   "title": "工業化学１",
+   "price": 2270,
+   "later": false
+  },
+  {
+   "id": "OG1-020",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "717",
+   "title": "工業化学２",
+   "price": 1410,
+   "later": false
+  },
+  {
+   "id": "OG1-021",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "719",
+   "title": "精選工業情報数理",
+   "price": 1659,
+   "later": false
+  },
+  {
+   "id": "OG1-022",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "771",
+   "title": "地球環境化学",
+   "price": 1067,
+   "later": false
+  },
+  {
+   "id": "OG1-023",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "電気・電子実習1",
+   "price": 1910,
+   "later": false
+  },
+  {
+   "id": "OG1-024",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "工業化学実習1",
+   "price": 1910,
+   "later": false
+  },
+  {
+   "id": "OG1-025",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "三訂版漢字検定7~2級対応 書きたくなるアシスト常用漢字",
+   "price": 649,
+   "later": false
+  },
+  {
+   "id": "OG1-026",
+   "kubun": "副教材",
+   "publisher": "東京書籍",
+   "code": "",
+   "title": "新編 言語文化 学習課題ノート",
+   "price": 660,
+   "later": false
+  },
+  {
+   "id": "OG1-027",
+   "kubun": "副教材",
+   "publisher": "啓隆社",
+   "code": "",
+   "title": "高校 国語の学習 1基礎編",
+   "price": 385,
+   "later": false
+  },
+  {
+   "id": "OG1-028",
+   "kubun": "副教材",
+   "publisher": "啓隆社",
+   "code": "",
+   "title": "高校 国語の学習 2基礎編",
+   "price": 385,
+   "later": false
+  },
+  {
+   "id": "OG1-029",
+   "kubun": "副教材",
+   "publisher": "啓隆社",
+   "code": "",
+   "title": "高校 国語の学習 3実践国語",
+   "price": 385,
+   "later": false
+  },
+  {
+   "id": "OG1-030",
+   "kubun": "副教材",
+   "publisher": "浜島書店",
+   "code": "",
+   "title": "高校国語への入門ー漢字･語句中心の基礎固めー",
+   "price": 370,
+   "later": false
+  },
+  {
+   "id": "OG1-031",
+   "kubun": "副教材",
+   "publisher": "第一学習社",
+   "code": "",
+   "title": "クローズアップ公共 2026",
+   "price": 946,
+   "later": false
+  },
+  {
+   "id": "OG1-032",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版[数学入門]スタートワーク",
+   "price": 385,
+   "later": false
+  },
+  {
+   "id": "OG1-033",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版 書き込み式シリーズ 【標準】 教科書傍用 Study-Upノート 数学I",
+   "price": 572,
+   "later": false
+  },
+  {
+   "id": "OG1-034",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版 書き込み式シリーズ【基本~標準】教科書傍用 パラレルノート 数学I",
+   "price": 572,
+   "later": false
+  },
+  {
+   "id": "OG1-035",
+   "kubun": "副教材",
+   "publisher": "東京書籍",
+   "code": "",
+   "title": "ニューサポート新編化学基礎",
+   "price": 650,
+   "later": false
+  },
+  {
+   "id": "OG1-036",
+   "kubun": "副教材",
+   "publisher": "大修館書店",
+   "code": "",
+   "title": "現代高等保健体育ノート(保体050-901)",
+   "price": 979,
+   "later": false
+  },
+  {
+   "id": "OG1-037",
+   "kubun": "副教材",
+   "publisher": "東京書籍",
+   "code": "",
+   "title": "高校英語へのステップ",
+   "price": 380,
+   "later": false
+  },
+  {
+   "id": "OG1-038",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版LEAP Basic 必携 英単語",
+   "price": 1078,
+   "later": false
+  },
+  {
+   "id": "OG1-039",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版LEAP Basic 必携 英単語 活用ノート1",
+   "price": 418,
+   "later": false
+  },
+  {
+   "id": "OG1-040",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "改訂版LEAP Basic 必携 英単語 活用ノート2",
+   "price": 451,
+   "later": false
+  },
+  {
+   "id": "OG1-041",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "機械実習1",
+   "price": 1910,
+   "later": false
+  },
+  {
+   "id": "OG1-042",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "工業702 機械製図 ワークノート",
+   "price": 670,
+   "later": false
+  },
+  {
+   "id": "OG1-043",
+   "kubun": "副教材",
+   "publisher": "全工校長会",
+   "code": "",
+   "title": "基礎製図検定問題集",
+   "price": 1270,
+   "later": true
+  },
+  {
+   "id": "OG1-044",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "工業007-902・903 機械工作1・2新訂版演習ノート",
+   "price": 870,
+   "later": false
+  },
+  {
+   "id": "OG1-045",
+   "kubun": "副教材",
+   "publisher": "全工校長会",
+   "code": "",
+   "title": "パソコン利用技術検定試験演習問題集 2級",
+   "price": 1580,
+   "later": true
+  },
+  {
+   "id": "OG1-046",
+   "kubun": "副教材",
+   "publisher": "全工校長会",
+   "code": "",
+   "title": "パソコン利用技術検定試験演習問題集 3級",
+   "price": 1580,
+   "later": true
+  },
+  {
+   "id": "OG1-047",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "714 建築構造演習ノート",
+   "price": 730,
+   "later": false
+  },
+  {
+   "id": "OG1-048",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "建築実習2",
+   "price": 1910,
+   "later": false
+  },
+  {
+   "id": "OG1-049",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "工業化学1・2演習ノート",
+   "price": 920,
+   "later": false
+  },
+  {
+   "id": "OG1-050",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "危険物取扱者テキスト丙種",
+   "price": 900,
+   "later": false
+  },
+  {
+   "id": "OG1-051",
+   "kubun": "副教材",
+   "publisher": "全工校長会",
+   "code": "",
+   "title": "2級情報技術検定試験 標準問題集",
+   "price": 1800,
+   "later": true
+  },
+  {
+   "id": "OG1-052",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "電気回路1・2 新訂版 演習ノート",
+   "price": 870,
+   "later": false
+  },
+  {
+   "id": "OG2-001",
+   "kubun": "教科書",
+   "publisher": "東書",
+   "code": "002-901",
+   "title": "新編現代の国語",
+   "price": 651,
+   "later": false
+  },
+  {
+   "id": "OG2-002",
+   "kubun": "教科書",
+   "publisher": "帝国",
+   "code": "046-901",
+   "title": "明解 歴史総合",
+   "price": 800,
+   "later": false
+  },
+  {
+   "id": "OG2-003",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-904",
+   "title": "改訂版 新編 数学Ⅱ",
+   "price": 903,
+   "later": false
+  },
+  {
+   "id": "OG2-004",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-902",
+   "title": "改訂版 新編 物理基礎",
+   "price": 914,
+   "later": false
+  },
+  {
+   "id": "OG2-005",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-903",
+   "title": "Revised COMET English Communication Ⅱ",
+   "price": 759,
+   "later": false
+  },
+  {
+   "id": "OG2-006",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "007-904",
+   "title": "機械設計1 新訂版",
+   "price": 1770,
+   "later": false
+  },
+  {
+   "id": "OG2-007",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "007-905",
+   "title": "機械設計2 新訂版",
+   "price": 1086,
+   "later": false
+  },
+  {
+   "id": "OG2-008",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "007-908",
+   "title": "精選電気回路 新訂版",
+   "price": 2547,
+   "later": false
+  },
+  {
+   "id": "OG2-009",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "007-909",
+   "title": "電気機器 新訂版",
+   "price": 1289,
+   "later": false
+  },
+  {
+   "id": "OG2-010",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "007-910",
+   "title": "電力技術１ 新訂版",
+   "price": 1320,
+   "later": false
+  },
+  {
+   "id": "OG2-011",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "007-911",
+   "title": "電力技術２ 新訂版",
+   "price": 838,
+   "later": false
+  },
+  {
+   "id": "OG2-012",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "007-912",
+   "title": "電子技術 新訂版",
+   "price": 1113,
+   "later": false
+  },
+  {
+   "id": "OG2-013",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "745",
+   "title": "電子回路",
+   "price": 1744,
+   "later": false
+  },
+  {
+   "id": "OG2-014",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "747",
+   "title": "ハードウェア技術",
+   "price": 1534,
+   "later": false
+  },
+  {
+   "id": "OG2-015",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "746",
+   "title": "プログラミング技術",
+   "price": 1866,
+   "later": false
+  },
+  {
+   "id": "OG2-016",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "748",
+   "title": "建築構造設計",
+   "price": 2293,
+   "later": false
+  },
+  {
+   "id": "OG2-017",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "749",
+   "title": "建築計画",
+   "price": 1416,
+   "later": false
+  },
+  {
+   "id": "OG2-018",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "706",
+   "title": "土木製図",
+   "price": 1580,
+   "later": false
+  },
+  {
+   "id": "OG2-019",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "750",
+   "title": "土木施工",
+   "price": 2286,
+   "later": false
+  },
+  {
+   "id": "OG2-020",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "751",
+   "title": "土木構造設計１",
+   "price": 1965,
+   "later": false
+  },
+  {
+   "id": "OG2-021",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "752",
+   "title": "土木構造設計２",
+   "price": 1198,
+   "later": false
+  },
+  {
+   "id": "OG2-022",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "707",
+   "title": "製図",
+   "price": 2166,
+   "later": false
+  },
+  {
+   "id": "OG2-023",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "753",
+   "title": "化学工学",
+   "price": 2053,
+   "later": false
+  },
+  {
+   "id": "OG2-024",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "機械実習2",
+   "price": 1910,
+   "later": false
+  },
+  {
+   "id": "OG2-025",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "機械実習3",
+   "price": 1910,
+   "later": false
+  },
+  {
+   "id": "OG2-026",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "電子機械実習",
+   "price": 2305,
+   "later": false
+  },
+  {
+   "id": "OG2-027",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "土木実習",
+   "price": 1910,
+   "later": false
+  },
+  {
+   "id": "OG2-028",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "建築実習1",
+   "price": 1910,
+   "later": false
+  },
+  {
+   "id": "OG2-029",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "工業化学実習2",
+   "price": 1910,
+   "later": false
+  },
+  {
+   "id": "OG2-030",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "電気・電子実習2",
+   "price": 1910,
+   "later": false
+  },
+  {
+   "id": "OG2-031",
+   "kubun": "副教材",
+   "publisher": "東京書籍",
+   "code": "",
+   "title": "新編 現代の国語 学習課題ノート",
+   "price": 510,
+   "later": false
+  },
+  {
+   "id": "OG2-032",
+   "kubun": "副教材",
+   "publisher": "尚文出版",
+   "code": "",
+   "title": "国語常識と読解演習パーフェクトノート",
+   "price": 385,
+   "later": false
+  },
+  {
+   "id": "OG2-033",
+   "kubun": "副教材",
+   "publisher": "尚文出版",
+   "code": "",
+   "title": "国語常識とSPIの学習 パワーアップノート",
+   "price": 385,
+   "later": false
+  },
+  {
+   "id": "OG2-034",
+   "kubun": "副教材",
+   "publisher": "第一学習社",
+   "code": "",
+   "title": "ダイアローグ歴史総合",
+   "price": 792,
+   "later": false
+  },
+  {
+   "id": "OG2-035",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "新課程 Study-Upノート 数学Ⅱ",
+   "price": 770,
+   "later": false
+  },
+  {
+   "id": "OG2-036",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "新課程 パラレルノート 数学Ⅱ",
+   "price": 792,
+   "later": false
+  },
+  {
+   "id": "OG2-037",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "フォローアップドリル物理基礎①(運動の表し方・力・運動方程式)",
+   "price": 341,
+   "later": false
+  },
+  {
+   "id": "OG2-038",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "フォローアップドリル物理基礎②(仕事とエネルギー・熱)",
+   "price": 297,
+   "later": false
+  },
+  {
+   "id": "OG2-039",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "フォローアップドリル物理基礎③(波・電気)",
+   "price": 330,
+   "later": false
+  },
+  {
+   "id": "OG2-040",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "工業007-908 精選電気回路 新訂版 演習ノート",
+   "price": 840,
+   "later": false
+  },
+  {
+   "id": "OG2-041",
+   "kubun": "副教材",
+   "publisher": "TAC",
+   "code": "",
+   "title": "2027年度版 工業高校機械科就職問題",
+   "price": 1430,
+   "later": false
+  },
+  {
+   "id": "OG2-042",
+   "kubun": "副教材",
+   "publisher": "全工校長会",
+   "code": "",
+   "title": "機械製図検定問題集",
+   "price": 1800,
+   "later": true
+  },
+  {
+   "id": "OG2-043",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "工業007-904・905 機械設計1・2 新訂版 演習ノート",
+   "price": 920,
+   "later": false
+  },
+  {
+   "id": "OG2-044",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "精選電気回路 演習ノート",
+   "price": 840,
+   "later": false
+  },
+  {
+   "id": "OG2-045",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "基礎から学ぶ機械設計",
+   "price": 890,
+   "later": false
+  },
+  {
+   "id": "OG2-046",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "749 建築計画演習ノート",
+   "price": 880,
+   "later": false
+  },
+  {
+   "id": "OG2-047",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "基礎から学ぶ 建築構造設計 基本式の理解と活用",
+   "price": 890,
+   "later": false
+  },
+  {
+   "id": "OG2-048",
+   "kubun": "副教材",
+   "publisher": "市ヶ谷出版",
+   "code": "",
+   "title": "2級土木施工管理技士 第一次検定・第二次検定 要点テキスト",
+   "price": 3300,
+   "later": false
+  },
+  {
+   "id": "OG2-049",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "製図ワークノート",
+   "price": 670,
+   "later": false
+  },
+  {
+   "id": "OG2-050",
+   "kubun": "副教材",
+   "publisher": "全工校長会",
+   "code": "",
+   "title": "基礎製図検定問題集",
+   "price": 1270,
+   "later": true
+  },
+  {
+   "id": "OG2-051",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "工業740・741「電力技術1・2」準拠 電力技術1・2 演習ノート",
+   "price": 880,
+   "later": false
+  },
+  {
+   "id": "OG2-052",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "電子回路 演習ノート",
+   "price": 800,
+   "later": false
+  },
+  {
+   "id": "OG2-053",
+   "kubun": "副教材",
+   "publisher": "技術評論社",
+   "code": "",
+   "title": "令和08年 イメージ&クレバー方式でよくわかる かやのき先生の基本情報技術者教室",
+   "price": 1870,
+   "later": false
+  },
+  {
+   "id": "OG3-001",
+   "kubun": "教科書",
+   "publisher": "第一",
+   "code": "710",
+   "title": "高等学校 標準文学国語",
+   "price": 1034,
+   "later": false
+  },
+  {
+   "id": "OG3-002",
+   "kubun": "教科書",
+   "publisher": "帝国",
+   "code": "046-902",
+   "title": "高校生の地理総合",
+   "price": 777,
+   "later": false
+  },
+  {
+   "id": "OG3-003",
+   "kubun": "教科書",
+   "publisher": "帝国",
+   "code": "046-902",
+   "title": "標準高等地図",
+   "price": 1626,
+   "later": false
+  },
+  {
+   "id": "OG3-004",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "714",
+   "title": "新編 数学A",
+   "price": 680,
+   "later": false
+  },
+  {
+   "id": "OG3-005",
+   "kubun": "教科書",
+   "publisher": "啓林館",
+   "code": "061-901",
+   "title": "高等学校 生物基礎 改訂版",
+   "price": 1037,
+   "later": false
+  },
+  {
+   "id": "OG3-006",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "736",
+   "title": "電子機械",
+   "price": 2155,
+   "later": false
+  },
+  {
+   "id": "OG3-007",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "703",
+   "title": "電気製図",
+   "price": 1899,
+   "later": false
+  },
+  {
+   "id": "OG3-008",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "704",
+   "title": "電子製図",
+   "price": 1713,
+   "later": false
+  },
+  {
+   "id": "OG3-009",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "768",
+   "title": "建築施工",
+   "price": 1416,
+   "later": false
+  },
+  {
+   "id": "OG3-010",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "769",
+   "title": "建築法規",
+   "price": 1105,
+   "later": false
+  },
+  {
+   "id": "OG3-011",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "756",
+   "title": "土木基盤力学 水理学 土質力学",
+   "price": 3246,
+   "later": false
+  },
+  {
+   "id": "OG3-012",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "770",
+   "title": "社会基盤工学",
+   "price": 1178,
+   "later": false
+  },
+  {
+   "id": "OG3-013",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "766",
+   "title": "ソフトウェア技術",
+   "price": 1405,
+   "later": false
+  },
+  {
+   "id": "OG3-014",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "767",
+   "title": "コンピュータシステム技術",
+   "price": 1276,
+   "later": false
+  },
+  {
+   "id": "OG3-015",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "710",
+   "title": "新編 数学Ⅲ",
+   "price": 816,
+   "later": false
+  },
+  {
+   "id": "OG3-016",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-902",
+   "title": "改訂版 総合物理１ 力と運動・熱",
+   "price": 641,
+   "later": false
+  },
+  {
+   "id": "OG3-017",
+   "kubun": "教科書",
+   "publisher": "数研",
+   "code": "104-903",
+   "title": "改訂版 総合物理２ 波・電気と磁気・原子",
+   "price": 651,
+   "later": false
+  },
+  {
+   "id": "OG3-018",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "763",
+   "title": "原動機",
+   "price": 1604,
+   "later": false
+  },
+  {
+   "id": "OG3-019",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "764",
+   "title": "電子計測制御",
+   "price": 1280,
+   "later": false
+  },
+  {
+   "id": "OG3-020",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "765",
+   "title": "通信技術",
+   "price": 967,
+   "later": false
+  },
+  {
+   "id": "OG3-021",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "746",
+   "title": "プログラミング技術",
+   "price": 1866,
+   "later": false
+  },
+  {
+   "id": "OG3-022",
+   "kubun": "教科書",
+   "publisher": "実教",
+   "code": "731",
+   "title": "デザイン製図",
+   "price": 943,
+   "later": false
+  },
+  {
+   "id": "OG3-023",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "工業管理技術 新訂版",
+   "price": 1980,
+   "later": false
+  },
+  {
+   "id": "OG3-024",
+   "kubun": "副教材",
+   "publisher": "オーム",
+   "code": "",
+   "title": "はじめてのロボット工学",
+   "price": 2640,
+   "later": false
+  },
+  {
+   "id": "OG3-025",
+   "kubun": "副教材",
+   "publisher": "第一学習社",
+   "code": "",
+   "title": "標準文学国語 学習課題集",
+   "price": 693,
+   "later": false
+  },
+  {
+   "id": "OG3-026",
+   "kubun": "副教材",
+   "publisher": "浜島書店",
+   "code": "",
+   "title": "いきいきとアライブ国語常識 総合演習･実践対策",
+   "price": 630,
+   "later": false
+  },
+  {
+   "id": "OG3-027",
+   "kubun": "副教材",
+   "publisher": "帝国書院",
+   "code": "",
+   "title": "図説地理資料 世界の諸地域 NOW2026",
+   "price": 1020,
+   "later": false
+  },
+  {
+   "id": "OG3-028",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "新課程 Study-Upノート 数学A",
+   "price": 506,
+   "later": false
+  },
+  {
+   "id": "OG3-029",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "新課程 Study-Upノート 数学Ⅲ",
+   "price": 748,
+   "later": false
+  },
+  {
+   "id": "OG3-030",
+   "kubun": "副教材",
+   "publisher": "啓林館",
+   "code": "",
+   "title": "サンダイヤル 生物基礎の基本マスター 新訂版",
+   "price": 580,
+   "later": false
+  },
+  {
+   "id": "OG3-031",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "フォローアップドリル物理①(力と運動・熱と気体)",
+   "price": 352,
+   "later": false
+  },
+  {
+   "id": "OG3-032",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "フォローアップドリル物理②(波)",
+   "price": 330,
+   "later": false
+  },
+  {
+   "id": "OG3-033",
+   "kubun": "副教材",
+   "publisher": "数研出版",
+   "code": "",
+   "title": "フォローアップドリル物理③(電気と磁気)",
+   "price": 352,
+   "later": false
+  },
+  {
+   "id": "OG3-034",
+   "kubun": "副教材",
+   "publisher": "実教出版",
+   "code": "",
+   "title": "電気・電子製図ワークノート",
+   "price": 670,
+   "later": false
+  }
+ ],
+ "pattern_items": [
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-001"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-002"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-003"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-004"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-005"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-006"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-007"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-008"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-009"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-010"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-011"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-012"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-025"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-026"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-027"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-028"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-029"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-030"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-031"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-032"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-033"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-034"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-035"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-036"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-037"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-038"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-039"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-040"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-041"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-042"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-043"
+  },
+  {
+   "pattern_id": "OG1-01",
+   "item_id": "OG1-044"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-001"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-002"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-003"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-004"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-005"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-006"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-007"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-008"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-013"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-014"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-015"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-023"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-025"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-026"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-027"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-028"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-029"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-030"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-031"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-032"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-033"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-034"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-035"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-036"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-037"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-038"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-039"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-040"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-051"
+  },
+  {
+   "pattern_id": "OG1-02",
+   "item_id": "OG1-052"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-001"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-002"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-003"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-004"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-005"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-006"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-007"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-008"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-013"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-016"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-017"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-018"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-025"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-026"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-027"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-028"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-029"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-030"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-031"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-032"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-033"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-034"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-035"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-036"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-037"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-038"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-039"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-040"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-045"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-046"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-047"
+  },
+  {
+   "pattern_id": "OG1-03",
+   "item_id": "OG1-048"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-001"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-002"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-003"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-004"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-005"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-006"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-007"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-008"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-019"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-020"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-021"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-022"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-024"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-025"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-026"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-027"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-028"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-029"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-030"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-031"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-032"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-033"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-034"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-035"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-036"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-037"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-038"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-039"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-040"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-049"
+  },
+  {
+   "pattern_id": "OG1-04",
+   "item_id": "OG1-050"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-001"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-002"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-003"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-004"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-005"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-006"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-007"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-008"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-024"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-025"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-031"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-032"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-033"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-034"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-035"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-036"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-037"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-038"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-039"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-040"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-041"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-042"
+  },
+  {
+   "pattern_id": "OG2-01",
+   "item_id": "OG2-043"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-001"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-002"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-003"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-004"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-005"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-006"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-007"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-008"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-026"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-031"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-032"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-033"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-034"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-035"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-036"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-037"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-038"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-039"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-042"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-044"
+  },
+  {
+   "pattern_id": "OG2-02",
+   "item_id": "OG2-045"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-001"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-002"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-003"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-004"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-005"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-018"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-019"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-020"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-021"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-027"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-031"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-032"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-033"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-034"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-035"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-036"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-037"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-038"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-039"
+  },
+  {
+   "pattern_id": "OG2-03",
+   "item_id": "OG2-048"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-001"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-002"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-003"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-004"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-005"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-016"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-017"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-028"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-031"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-032"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-033"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-034"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-035"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-036"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-037"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-038"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-039"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-046"
+  },
+  {
+   "pattern_id": "OG2-04",
+   "item_id": "OG2-047"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-001"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-002"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-003"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-004"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-005"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-022"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-023"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-029"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-031"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-032"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-033"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-034"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-035"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-036"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-037"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-038"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-039"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-049"
+  },
+  {
+   "pattern_id": "OG2-05",
+   "item_id": "OG2-050"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-001"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-002"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-003"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-004"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-005"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-009"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-010"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-011"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-012"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-030"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-031"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-032"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-033"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-034"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-035"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-036"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-037"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-038"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-039"
+  },
+  {
+   "pattern_id": "OG2-06",
+   "item_id": "OG2-051"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-001"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-002"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-003"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-004"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-005"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-013"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-014"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-031"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-032"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-033"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-034"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-035"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-036"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-037"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-038"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-039"
+  },
+  {
+   "pattern_id": "OG2-07",
+   "item_id": "OG2-052"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-001"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-002"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-003"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-004"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-005"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-013"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-014"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-015"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-031"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-032"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-033"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-034"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-035"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-036"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-037"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-038"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-039"
+  },
+  {
+   "pattern_id": "OG2-08",
+   "item_id": "OG2-053"
+  },
+  {
+   "pattern_id": "OG3-01",
+   "item_id": "OG3-001"
+  },
+  {
+   "pattern_id": "OG3-01",
+   "item_id": "OG3-002"
+  },
+  {
+   "pattern_id": "OG3-01",
+   "item_id": "OG3-003"
+  },
+  {
+   "pattern_id": "OG3-01",
+   "item_id": "OG3-004"
+  },
+  {
+   "pattern_id": "OG3-01",
+   "item_id": "OG3-005"
+  },
+  {
+   "pattern_id": "OG3-01",
+   "item_id": "OG3-018"
+  },
+  {
+   "pattern_id": "OG3-01",
+   "item_id": "OG3-023"
+  },
+  {
+   "pattern_id": "OG3-01",
+   "item_id": "OG3-025"
+  },
+  {
+   "pattern_id": "OG3-01",
+   "item_id": "OG3-026"
+  },
+  {
+   "pattern_id": "OG3-01",
+   "item_id": "OG3-027"
+  },
+  {
+   "pattern_id": "OG3-01",
+   "item_id": "OG3-028"
+  },
+  {
+   "pattern_id": "OG3-01",
+   "item_id": "OG3-030"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-001"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-002"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-003"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-004"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-005"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-006"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-015"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-016"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-017"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-025"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-026"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-027"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-028"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-029"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-030"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-031"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-032"
+  },
+  {
+   "pattern_id": "OG3-02",
+   "item_id": "OG3-033"
+  },
+  {
+   "pattern_id": "OG3-03",
+   "item_id": "OG3-001"
+  },
+  {
+   "pattern_id": "OG3-03",
+   "item_id": "OG3-002"
+  },
+  {
+   "pattern_id": "OG3-03",
+   "item_id": "OG3-003"
+  },
+  {
+   "pattern_id": "OG3-03",
+   "item_id": "OG3-004"
+  },
+  {
+   "pattern_id": "OG3-03",
+   "item_id": "OG3-005"
+  },
+  {
+   "pattern_id": "OG3-03",
+   "item_id": "OG3-006"
+  },
+  {
+   "pattern_id": "OG3-03",
+   "item_id": "OG3-024"
+  },
+  {
+   "pattern_id": "OG3-03",
+   "item_id": "OG3-025"
+  },
+  {
+   "pattern_id": "OG3-03",
+   "item_id": "OG3-026"
+  },
+  {
+   "pattern_id": "OG3-03",
+   "item_id": "OG3-027"
+  },
+  {
+   "pattern_id": "OG3-03",
+   "item_id": "OG3-028"
+  },
+  {
+   "pattern_id": "OG3-03",
+   "item_id": "OG3-030"
+  },
+  {
+   "pattern_id": "OG3-04",
+   "item_id": "OG3-001"
+  },
+  {
+   "pattern_id": "OG3-04",
+   "item_id": "OG3-002"
+  },
+  {
+   "pattern_id": "OG3-04",
+   "item_id": "OG3-003"
+  },
+  {
+   "pattern_id": "OG3-04",
+   "item_id": "OG3-004"
+  },
+  {
+   "pattern_id": "OG3-04",
+   "item_id": "OG3-005"
+  },
+  {
+   "pattern_id": "OG3-04",
+   "item_id": "OG3-009"
+  },
+  {
+   "pattern_id": "OG3-04",
+   "item_id": "OG3-010"
+  },
+  {
+   "pattern_id": "OG3-04",
+   "item_id": "OG3-025"
+  },
+  {
+   "pattern_id": "OG3-04",
+   "item_id": "OG3-026"
+  },
+  {
+   "pattern_id": "OG3-04",
+   "item_id": "OG3-027"
+  },
+  {
+   "pattern_id": "OG3-04",
+   "item_id": "OG3-028"
+  },
+  {
+   "pattern_id": "OG3-04",
+   "item_id": "OG3-030"
+  },
+  {
+   "pattern_id": "OG3-05",
+   "item_id": "OG3-001"
+  },
+  {
+   "pattern_id": "OG3-05",
+   "item_id": "OG3-002"
+  },
+  {
+   "pattern_id": "OG3-05",
+   "item_id": "OG3-003"
+  },
+  {
+   "pattern_id": "OG3-05",
+   "item_id": "OG3-004"
+  },
+  {
+   "pattern_id": "OG3-05",
+   "item_id": "OG3-005"
+  },
+  {
+   "pattern_id": "OG3-05",
+   "item_id": "OG3-011"
+  },
+  {
+   "pattern_id": "OG3-05",
+   "item_id": "OG3-012"
+  },
+  {
+   "pattern_id": "OG3-05",
+   "item_id": "OG3-025"
+  },
+  {
+   "pattern_id": "OG3-05",
+   "item_id": "OG3-026"
+  },
+  {
+   "pattern_id": "OG3-05",
+   "item_id": "OG3-027"
+  },
+  {
+   "pattern_id": "OG3-05",
+   "item_id": "OG3-028"
+  },
+  {
+   "pattern_id": "OG3-05",
+   "item_id": "OG3-030"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-001"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-002"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-003"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-004"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-005"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-015"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-016"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-017"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-025"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-026"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-027"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-028"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-029"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-030"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-031"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-032"
+  },
+  {
+   "pattern_id": "OG3-06",
+   "item_id": "OG3-033"
+  },
+  {
+   "pattern_id": "OG3-07",
+   "item_id": "OG3-001"
+  },
+  {
+   "pattern_id": "OG3-07",
+   "item_id": "OG3-002"
+  },
+  {
+   "pattern_id": "OG3-07",
+   "item_id": "OG3-003"
+  },
+  {
+   "pattern_id": "OG3-07",
+   "item_id": "OG3-004"
+  },
+  {
+   "pattern_id": "OG3-07",
+   "item_id": "OG3-005"
+  },
+  {
+   "pattern_id": "OG3-07",
+   "item_id": "OG3-025"
+  },
+  {
+   "pattern_id": "OG3-07",
+   "item_id": "OG3-026"
+  },
+  {
+   "pattern_id": "OG3-07",
+   "item_id": "OG3-027"
+  },
+  {
+   "pattern_id": "OG3-07",
+   "item_id": "OG3-028"
+  },
+  {
+   "pattern_id": "OG3-07",
+   "item_id": "OG3-030"
+  },
+  {
+   "pattern_id": "OG3-08",
+   "item_id": "OG3-001"
+  },
+  {
+   "pattern_id": "OG3-08",
+   "item_id": "OG3-002"
+  },
+  {
+   "pattern_id": "OG3-08",
+   "item_id": "OG3-003"
+  },
+  {
+   "pattern_id": "OG3-08",
+   "item_id": "OG3-004"
+  },
+  {
+   "pattern_id": "OG3-08",
+   "item_id": "OG3-005"
+  },
+  {
+   "pattern_id": "OG3-08",
+   "item_id": "OG3-007"
+  },
+  {
+   "pattern_id": "OG3-08",
+   "item_id": "OG3-025"
+  },
+  {
+   "pattern_id": "OG3-08",
+   "item_id": "OG3-026"
+  },
+  {
+   "pattern_id": "OG3-08",
+   "item_id": "OG3-027"
+  },
+  {
+   "pattern_id": "OG3-08",
+   "item_id": "OG3-028"
+  },
+  {
+   "pattern_id": "OG3-08",
+   "item_id": "OG3-030"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-001"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-002"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-003"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-004"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-005"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-008"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-015"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-016"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-017"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-025"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-026"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-027"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-028"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-029"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-030"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-031"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-032"
+  },
+  {
+   "pattern_id": "OG3-09",
+   "item_id": "OG3-033"
+  },
+  {
+   "pattern_id": "OG3-10",
+   "item_id": "OG3-001"
+  },
+  {
+   "pattern_id": "OG3-10",
+   "item_id": "OG3-002"
+  },
+  {
+   "pattern_id": "OG3-10",
+   "item_id": "OG3-003"
+  },
+  {
+   "pattern_id": "OG3-10",
+   "item_id": "OG3-004"
+  },
+  {
+   "pattern_id": "OG3-10",
+   "item_id": "OG3-005"
+  },
+  {
+   "pattern_id": "OG3-10",
+   "item_id": "OG3-008"
+  },
+  {
+   "pattern_id": "OG3-10",
+   "item_id": "OG3-019"
+  },
+  {
+   "pattern_id": "OG3-10",
+   "item_id": "OG3-020"
+  },
+  {
+   "pattern_id": "OG3-10",
+   "item_id": "OG3-021"
+  },
+  {
+   "pattern_id": "OG3-10",
+   "item_id": "OG3-025"
+  },
+  {
+   "pattern_id": "OG3-10",
+   "item_id": "OG3-026"
+  },
+  {
+   "pattern_id": "OG3-10",
+   "item_id": "OG3-027"
+  },
+  {
+   "pattern_id": "OG3-10",
+   "item_id": "OG3-028"
+  },
+  {
+   "pattern_id": "OG3-10",
+   "item_id": "OG3-030"
+  },
+  {
+   "pattern_id": "OG3-10",
+   "item_id": "OG3-034"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-001"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-002"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-003"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-004"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-005"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-013"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-014"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-015"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-016"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-017"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-025"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-026"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-027"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-028"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-029"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-030"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-031"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-032"
+  },
+  {
+   "pattern_id": "OG3-11",
+   "item_id": "OG3-033"
+  },
+  {
+   "pattern_id": "OG3-12",
+   "item_id": "OG3-001"
+  },
+  {
+   "pattern_id": "OG3-12",
+   "item_id": "OG3-002"
+  },
+  {
+   "pattern_id": "OG3-12",
+   "item_id": "OG3-003"
+  },
+  {
+   "pattern_id": "OG3-12",
+   "item_id": "OG3-004"
+  },
+  {
+   "pattern_id": "OG3-12",
+   "item_id": "OG3-005"
+  },
+  {
+   "pattern_id": "OG3-12",
+   "item_id": "OG3-013"
+  },
+  {
+   "pattern_id": "OG3-12",
+   "item_id": "OG3-014"
+  },
+  {
+   "pattern_id": "OG3-12",
+   "item_id": "OG3-022"
+  },
+  {
+   "pattern_id": "OG3-12",
+   "item_id": "OG3-025"
+  },
+  {
+   "pattern_id": "OG3-12",
+   "item_id": "OG3-026"
+  },
+  {
+   "pattern_id": "OG3-12",
+   "item_id": "OG3-027"
+  },
+  {
+   "pattern_id": "OG3-12",
+   "item_id": "OG3-028"
+  },
+  {
+   "pattern_id": "OG3-12",
+   "item_id": "OG3-030"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-001"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-002"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-003"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-004"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-005"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-006"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-007"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-008"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-009"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-010"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-011"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-012"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-013"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-014"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-015"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-016"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-017"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-018"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-019"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-020"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-021"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-022"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-023"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-024"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-025"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-026"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-027"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-028"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-029"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-030"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-031"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-032"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-033"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-034"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-035"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-036"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-037"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-038"
+  },
+  {
+   "pattern_id": "IK1-01",
+   "item_id": "IK1-039"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-001"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-003"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-004"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-007"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-008"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-010"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-011"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-012"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-013"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-016"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-017"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-018"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-019"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-021"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-022"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-023"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-028"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-029"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-030"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-031"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-032"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-033"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-035"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-036"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-037"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-040"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-042"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-044"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-045"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-046"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-047"
+  },
+  {
+   "pattern_id": "IK2-01",
+   "item_id": "IK2-048"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-001"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-003"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-004"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-007"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-008"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-010"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-012"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-013"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-015"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-016"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-017"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-018"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-019"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-021"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-022"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-023"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-028"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-029"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-030"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-031"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-032"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-033"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-035"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-036"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-037"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-042"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-043"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-044"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-045"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-046"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-047"
+  },
+  {
+   "pattern_id": "IK2-02",
+   "item_id": "IK2-048"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-001"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-002"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-003"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-004"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-006"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-007"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-008"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-012"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-016"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-017"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-018"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-019"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-020"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-021"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-022"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-023"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-024"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-025"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-028"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-029"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-034"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-038"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-039"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-041"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-044"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-045"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-046"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-047"
+  },
+  {
+   "pattern_id": "IK2-03",
+   "item_id": "IK2-048"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-001"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-002"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-003"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-004"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-006"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-007"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-008"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-010"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-012"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-016"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-017"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-018"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-019"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-020"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-021"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-022"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-023"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-024"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-025"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-028"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-029"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-030"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-031"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-033"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-037"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-041"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-044"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-045"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-046"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-047"
+  },
+  {
+   "pattern_id": "IK2-04",
+   "item_id": "IK2-048"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-001"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-002"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-003"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-004"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-005"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-007"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-008"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-012"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-016"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-017"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-018"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-019"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-020"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-021"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-022"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-023"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-026"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-027"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-028"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-029"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-034"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-038"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-039"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-041"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-044"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-045"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-046"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-047"
+  },
+  {
+   "pattern_id": "IK2-05",
+   "item_id": "IK2-048"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-001"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-002"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-003"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-004"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-005"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-007"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-008"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-010"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-012"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-016"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-017"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-018"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-019"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-020"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-021"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-022"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-023"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-026"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-027"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-028"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-029"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-030"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-031"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-033"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-037"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-041"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-044"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-045"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-046"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-047"
+  },
+  {
+   "pattern_id": "IK2-06",
+   "item_id": "IK2-048"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-001"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-002"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-003"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-004"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-005"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-007"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-008"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-012"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-016"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-017"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-018"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-019"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-020"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-021"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-022"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-023"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-026"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-027"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-028"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-029"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-034"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-041"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-044"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-045"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-046"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-047"
+  },
+  {
+   "pattern_id": "IK2-07",
+   "item_id": "IK2-048"
+  },
+  {
+   "pattern_id": "IK3-01",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-01",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-01",
+   "item_id": "IK3-004"
+  },
+  {
+   "pattern_id": "IK3-01",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-01",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-01",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-01",
+   "item_id": "IK3-014"
+  },
+  {
+   "pattern_id": "IK3-01",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-01",
+   "item_id": "IK3-023"
+  },
+  {
+   "pattern_id": "IK3-01",
+   "item_id": "IK3-024"
+  },
+  {
+   "pattern_id": "IK3-02",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-02",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-02",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-02",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-02",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-02",
+   "item_id": "IK3-015"
+  },
+  {
+   "pattern_id": "IK3-02",
+   "item_id": "IK3-016"
+  },
+  {
+   "pattern_id": "IK3-02",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-02",
+   "item_id": "IK3-019"
+  },
+  {
+   "pattern_id": "IK3-02",
+   "item_id": "IK3-020"
+  },
+  {
+   "pattern_id": "IK3-02",
+   "item_id": "IK3-021"
+  },
+  {
+   "pattern_id": "IK3-03",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-03",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-03",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-03",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-03",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-03",
+   "item_id": "IK3-015"
+  },
+  {
+   "pattern_id": "IK3-03",
+   "item_id": "IK3-016"
+  },
+  {
+   "pattern_id": "IK3-03",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-03",
+   "item_id": "IK3-023"
+  },
+  {
+   "pattern_id": "IK3-03",
+   "item_id": "IK3-024"
+  },
+  {
+   "pattern_id": "IK3-04",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-04",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-04",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-04",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-04",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-04",
+   "item_id": "IK3-015"
+  },
+  {
+   "pattern_id": "IK3-04",
+   "item_id": "IK3-016"
+  },
+  {
+   "pattern_id": "IK3-04",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-05",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-05",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-05",
+   "item_id": "IK3-005"
+  },
+  {
+   "pattern_id": "IK3-05",
+   "item_id": "IK3-006"
+  },
+  {
+   "pattern_id": "IK3-05",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-05",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-05",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-05",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-05",
+   "item_id": "IK3-022"
+  },
+  {
+   "pattern_id": "IK3-05",
+   "item_id": "IK3-023"
+  },
+  {
+   "pattern_id": "IK3-05",
+   "item_id": "IK3-024"
+  },
+  {
+   "pattern_id": "IK3-06",
+   "item_id": "IK3-001"
+  },
+  {
+   "pattern_id": "IK3-06",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-06",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-06",
+   "item_id": "IK3-005"
+  },
+  {
+   "pattern_id": "IK3-06",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-06",
+   "item_id": "IK3-010"
+  },
+  {
+   "pattern_id": "IK3-06",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-06",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-06",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-06",
+   "item_id": "IK3-022"
+  },
+  {
+   "pattern_id": "IK3-06",
+   "item_id": "IK3-023"
+  },
+  {
+   "pattern_id": "IK3-06",
+   "item_id": "IK3-024"
+  },
+  {
+   "pattern_id": "IK3-07",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-07",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-07",
+   "item_id": "IK3-005"
+  },
+  {
+   "pattern_id": "IK3-07",
+   "item_id": "IK3-006"
+  },
+  {
+   "pattern_id": "IK3-07",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-07",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-07",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-07",
+   "item_id": "IK3-013"
+  },
+  {
+   "pattern_id": "IK3-07",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-07",
+   "item_id": "IK3-019"
+  },
+  {
+   "pattern_id": "IK3-07",
+   "item_id": "IK3-020"
+  },
+  {
+   "pattern_id": "IK3-07",
+   "item_id": "IK3-021"
+  },
+  {
+   "pattern_id": "IK3-08",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-08",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-08",
+   "item_id": "IK3-005"
+  },
+  {
+   "pattern_id": "IK3-08",
+   "item_id": "IK3-006"
+  },
+  {
+   "pattern_id": "IK3-08",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-08",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-08",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-08",
+   "item_id": "IK3-013"
+  },
+  {
+   "pattern_id": "IK3-08",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-09",
+   "item_id": "IK3-001"
+  },
+  {
+   "pattern_id": "IK3-09",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-09",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-09",
+   "item_id": "IK3-005"
+  },
+  {
+   "pattern_id": "IK3-09",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-09",
+   "item_id": "IK3-010"
+  },
+  {
+   "pattern_id": "IK3-09",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-09",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-09",
+   "item_id": "IK3-013"
+  },
+  {
+   "pattern_id": "IK3-09",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-09",
+   "item_id": "IK3-019"
+  },
+  {
+   "pattern_id": "IK3-09",
+   "item_id": "IK3-020"
+  },
+  {
+   "pattern_id": "IK3-09",
+   "item_id": "IK3-021"
+  },
+  {
+   "pattern_id": "IK3-10",
+   "item_id": "IK3-001"
+  },
+  {
+   "pattern_id": "IK3-10",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-10",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-10",
+   "item_id": "IK3-005"
+  },
+  {
+   "pattern_id": "IK3-10",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-10",
+   "item_id": "IK3-010"
+  },
+  {
+   "pattern_id": "IK3-10",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-10",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-10",
+   "item_id": "IK3-013"
+  },
+  {
+   "pattern_id": "IK3-10",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-10",
+   "item_id": "IK3-023"
+  },
+  {
+   "pattern_id": "IK3-10",
+   "item_id": "IK3-024"
+  },
+  {
+   "pattern_id": "IK3-11",
+   "item_id": "IK3-001"
+  },
+  {
+   "pattern_id": "IK3-11",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-11",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-11",
+   "item_id": "IK3-005"
+  },
+  {
+   "pattern_id": "IK3-11",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-11",
+   "item_id": "IK3-010"
+  },
+  {
+   "pattern_id": "IK3-11",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-11",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-11",
+   "item_id": "IK3-013"
+  },
+  {
+   "pattern_id": "IK3-11",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-12",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-12",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-12",
+   "item_id": "IK3-005"
+  },
+  {
+   "pattern_id": "IK3-12",
+   "item_id": "IK3-007"
+  },
+  {
+   "pattern_id": "IK3-12",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-12",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-12",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-12",
+   "item_id": "IK3-013"
+  },
+  {
+   "pattern_id": "IK3-12",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-13",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-13",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-13",
+   "item_id": "IK3-005"
+  },
+  {
+   "pattern_id": "IK3-13",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-13",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-13",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-13",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-13",
+   "item_id": "IK3-023"
+  },
+  {
+   "pattern_id": "IK3-13",
+   "item_id": "IK3-024"
+  },
+  {
+   "pattern_id": "IK3-13",
+   "item_id": "IK3-025"
+  },
+  {
+   "pattern_id": "IK3-14",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-14",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-14",
+   "item_id": "IK3-005"
+  },
+  {
+   "pattern_id": "IK3-14",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-14",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-14",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-14",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-14",
+   "item_id": "IK3-025"
+  },
+  {
+   "pattern_id": "IK3-15",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-15",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-15",
+   "item_id": "IK3-005"
+  },
+  {
+   "pattern_id": "IK3-15",
+   "item_id": "IK3-006"
+  },
+  {
+   "pattern_id": "IK3-15",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-15",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-15",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-15",
+   "item_id": "IK3-017"
+  },
+  {
+   "pattern_id": "IK3-15",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-15",
+   "item_id": "IK3-023"
+  },
+  {
+   "pattern_id": "IK3-15",
+   "item_id": "IK3-024"
+  },
+  {
+   "pattern_id": "IK3-16",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-16",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-16",
+   "item_id": "IK3-005"
+  },
+  {
+   "pattern_id": "IK3-16",
+   "item_id": "IK3-006"
+  },
+  {
+   "pattern_id": "IK3-16",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-16",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-16",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-16",
+   "item_id": "IK3-017"
+  },
+  {
+   "pattern_id": "IK3-16",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-17",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-17",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-17",
+   "item_id": "IK3-006"
+  },
+  {
+   "pattern_id": "IK3-17",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-17",
+   "item_id": "IK3-009"
+  },
+  {
+   "pattern_id": "IK3-17",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-17",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-17",
+   "item_id": "IK3-017"
+  },
+  {
+   "pattern_id": "IK3-17",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-17",
+   "item_id": "IK3-019"
+  },
+  {
+   "pattern_id": "IK3-17",
+   "item_id": "IK3-020"
+  },
+  {
+   "pattern_id": "IK3-17",
+   "item_id": "IK3-021"
+  },
+  {
+   "pattern_id": "IK3-18",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-18",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-18",
+   "item_id": "IK3-006"
+  },
+  {
+   "pattern_id": "IK3-18",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-18",
+   "item_id": "IK3-009"
+  },
+  {
+   "pattern_id": "IK3-18",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-18",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-18",
+   "item_id": "IK3-017"
+  },
+  {
+   "pattern_id": "IK3-18",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-19",
+   "item_id": "IK3-001"
+  },
+  {
+   "pattern_id": "IK3-19",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-19",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-19",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-19",
+   "item_id": "IK3-009"
+  },
+  {
+   "pattern_id": "IK3-19",
+   "item_id": "IK3-010"
+  },
+  {
+   "pattern_id": "IK3-19",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-19",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-19",
+   "item_id": "IK3-017"
+  },
+  {
+   "pattern_id": "IK3-19",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-19",
+   "item_id": "IK3-019"
+  },
+  {
+   "pattern_id": "IK3-19",
+   "item_id": "IK3-020"
+  },
+  {
+   "pattern_id": "IK3-19",
+   "item_id": "IK3-021"
+  },
+  {
+   "pattern_id": "IK3-20",
+   "item_id": "IK3-001"
+  },
+  {
+   "pattern_id": "IK3-20",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-20",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-20",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-20",
+   "item_id": "IK3-009"
+  },
+  {
+   "pattern_id": "IK3-20",
+   "item_id": "IK3-010"
+  },
+  {
+   "pattern_id": "IK3-20",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-20",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-20",
+   "item_id": "IK3-017"
+  },
+  {
+   "pattern_id": "IK3-20",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-21",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-21",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-21",
+   "item_id": "IK3-007"
+  },
+  {
+   "pattern_id": "IK3-21",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-21",
+   "item_id": "IK3-009"
+  },
+  {
+   "pattern_id": "IK3-21",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-21",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-21",
+   "item_id": "IK3-017"
+  },
+  {
+   "pattern_id": "IK3-21",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-21",
+   "item_id": "IK3-023"
+  },
+  {
+   "pattern_id": "IK3-21",
+   "item_id": "IK3-024"
+  },
+  {
+   "pattern_id": "IK3-22",
+   "item_id": "IK3-001"
+  },
+  {
+   "pattern_id": "IK3-22",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-22",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-22",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-22",
+   "item_id": "IK3-010"
+  },
+  {
+   "pattern_id": "IK3-22",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-22",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-22",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-22",
+   "item_id": "IK3-019"
+  },
+  {
+   "pattern_id": "IK3-22",
+   "item_id": "IK3-020"
+  },
+  {
+   "pattern_id": "IK3-22",
+   "item_id": "IK3-021"
+  },
+  {
+   "pattern_id": "IK3-22",
+   "item_id": "IK3-022"
+  },
+  {
+   "pattern_id": "IK3-23",
+   "item_id": "IK3-001"
+  },
+  {
+   "pattern_id": "IK3-23",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-23",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-23",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-23",
+   "item_id": "IK3-010"
+  },
+  {
+   "pattern_id": "IK3-23",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-23",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-23",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-23",
+   "item_id": "IK3-022"
+  },
+  {
+   "pattern_id": "IK3-23",
+   "item_id": "IK3-023"
+  },
+  {
+   "pattern_id": "IK3-23",
+   "item_id": "IK3-024"
+  },
+  {
+   "pattern_id": "IK3-24",
+   "item_id": "IK3-001"
+  },
+  {
+   "pattern_id": "IK3-24",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-24",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-24",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-24",
+   "item_id": "IK3-010"
+  },
+  {
+   "pattern_id": "IK3-24",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-24",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-24",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-24",
+   "item_id": "IK3-022"
+  },
+  {
+   "pattern_id": "IK3-25",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-25",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-25",
+   "item_id": "IK3-006"
+  },
+  {
+   "pattern_id": "IK3-25",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-25",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-25",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-25",
+   "item_id": "IK3-013"
+  },
+  {
+   "pattern_id": "IK3-25",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-25",
+   "item_id": "IK3-019"
+  },
+  {
+   "pattern_id": "IK3-25",
+   "item_id": "IK3-020"
+  },
+  {
+   "pattern_id": "IK3-25",
+   "item_id": "IK3-021"
+  },
+  {
+   "pattern_id": "IK3-26",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-26",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-26",
+   "item_id": "IK3-006"
+  },
+  {
+   "pattern_id": "IK3-26",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-26",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-26",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-26",
+   "item_id": "IK3-013"
+  },
+  {
+   "pattern_id": "IK3-26",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-26",
+   "item_id": "IK3-023"
+  },
+  {
+   "pattern_id": "IK3-26",
+   "item_id": "IK3-024"
+  },
+  {
+   "pattern_id": "IK3-27",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-27",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-27",
+   "item_id": "IK3-006"
+  },
+  {
+   "pattern_id": "IK3-27",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-27",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-27",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-27",
+   "item_id": "IK3-013"
+  },
+  {
+   "pattern_id": "IK3-27",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-28",
+   "item_id": "IK3-001"
+  },
+  {
+   "pattern_id": "IK3-28",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-28",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-28",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-28",
+   "item_id": "IK3-010"
+  },
+  {
+   "pattern_id": "IK3-28",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-28",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-28",
+   "item_id": "IK3-013"
+  },
+  {
+   "pattern_id": "IK3-28",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-28",
+   "item_id": "IK3-019"
+  },
+  {
+   "pattern_id": "IK3-28",
+   "item_id": "IK3-020"
+  },
+  {
+   "pattern_id": "IK3-28",
+   "item_id": "IK3-021"
+  },
+  {
+   "pattern_id": "IK3-29",
+   "item_id": "IK3-001"
+  },
+  {
+   "pattern_id": "IK3-29",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-29",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-29",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-29",
+   "item_id": "IK3-010"
+  },
+  {
+   "pattern_id": "IK3-29",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-29",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-29",
+   "item_id": "IK3-013"
+  },
+  {
+   "pattern_id": "IK3-29",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-29",
+   "item_id": "IK3-023"
+  },
+  {
+   "pattern_id": "IK3-29",
+   "item_id": "IK3-024"
+  },
+  {
+   "pattern_id": "IK3-30",
+   "item_id": "IK3-001"
+  },
+  {
+   "pattern_id": "IK3-30",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-30",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-30",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-30",
+   "item_id": "IK3-010"
+  },
+  {
+   "pattern_id": "IK3-30",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-30",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-30",
+   "item_id": "IK3-013"
+  },
+  {
+   "pattern_id": "IK3-30",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-31",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-31",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-31",
+   "item_id": "IK3-007"
+  },
+  {
+   "pattern_id": "IK3-31",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-31",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-31",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-31",
+   "item_id": "IK3-013"
+  },
+  {
+   "pattern_id": "IK3-31",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-31",
+   "item_id": "IK3-019"
+  },
+  {
+   "pattern_id": "IK3-31",
+   "item_id": "IK3-020"
+  },
+  {
+   "pattern_id": "IK3-31",
+   "item_id": "IK3-021"
+  },
+  {
+   "pattern_id": "IK3-32",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-32",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-32",
+   "item_id": "IK3-007"
+  },
+  {
+   "pattern_id": "IK3-32",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-32",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-32",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-32",
+   "item_id": "IK3-013"
+  },
+  {
+   "pattern_id": "IK3-32",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-33",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-33",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-33",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-33",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-33",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-33",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-33",
+   "item_id": "IK3-023"
+  },
+  {
+   "pattern_id": "IK3-33",
+   "item_id": "IK3-024"
+  },
+  {
+   "pattern_id": "IK3-33",
+   "item_id": "IK3-025"
+  },
+  {
+   "pattern_id": "IK3-34",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-34",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-34",
+   "item_id": "IK3-006"
+  },
+  {
+   "pattern_id": "IK3-34",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-34",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-34",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-34",
+   "item_id": "IK3-017"
+  },
+  {
+   "pattern_id": "IK3-34",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-34",
+   "item_id": "IK3-019"
+  },
+  {
+   "pattern_id": "IK3-34",
+   "item_id": "IK3-020"
+  },
+  {
+   "pattern_id": "IK3-34",
+   "item_id": "IK3-021"
+  },
+  {
+   "pattern_id": "IK3-35",
+   "item_id": "IK3-001"
+  },
+  {
+   "pattern_id": "IK3-35",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-35",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-35",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-35",
+   "item_id": "IK3-010"
+  },
+  {
+   "pattern_id": "IK3-35",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-35",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-35",
+   "item_id": "IK3-017"
+  },
+  {
+   "pattern_id": "IK3-35",
+   "item_id": "IK3-018"
+  },
+  {
+   "pattern_id": "IK3-35",
+   "item_id": "IK3-019"
+  },
+  {
+   "pattern_id": "IK3-35",
+   "item_id": "IK3-020"
+  },
+  {
+   "pattern_id": "IK3-35",
+   "item_id": "IK3-021"
+  },
+  {
+   "pattern_id": "IK3-36",
+   "item_id": "IK3-001"
+  },
+  {
+   "pattern_id": "IK3-36",
+   "item_id": "IK3-002"
+  },
+  {
+   "pattern_id": "IK3-36",
+   "item_id": "IK3-003"
+  },
+  {
+   "pattern_id": "IK3-36",
+   "item_id": "IK3-008"
+  },
+  {
+   "pattern_id": "IK3-36",
+   "item_id": "IK3-010"
+  },
+  {
+   "pattern_id": "IK3-36",
+   "item_id": "IK3-011"
+  },
+  {
+   "pattern_id": "IK3-36",
+   "item_id": "IK3-012"
+  },
+  {
+   "pattern_id": "IK3-36",
+   "item_id": "IK3-017"
+  },
+  {
+   "pattern_id": "IK3-36",
+   "item_id": "IK3-018"
+  }
+ ],
+ "later_sales": [
+  {
+   "school": "大垣工業",
+   "grade": 1,
+   "id": "OG1-053",
+   "publisher": "光村",
+   "code": "038-901",
+   "title": "美術１",
+   "price": 1322
+  },
+  {
+   "school": "大垣工業",
+   "grade": 1,
+   "id": "OG1-054",
+   "publisher": "光村",
+   "code": "038-901",
+   "title": "書Ⅰ",
+   "price": 577
+  },
+  {
+   "school": "池田",
+   "grade": 1,
+   "id": "IK1-040",
+   "publisher": "教芸",
+   "code": "027-901",
+   "title": "MOUSA１",
+   "price": 544
+  },
+  {
+   "school": "池田",
+   "grade": 1,
+   "id": "IK1-041",
+   "publisher": "光村",
+   "code": "038-901",
+   "title": "美術１",
+   "price": 1322
+  },
+  {
+   "school": "池田",
+   "grade": 1,
+   "id": "IK1-042",
+   "publisher": "東書",
+   "code": "002-901",
+   "title": "書道Ⅰ",
+   "price": 577
+  }
+ ]
+}
