@@ -30,7 +30,7 @@
 - 静的HTML（フレームワーク不使用）
 - [Tailwind CSS](https://tailwindcss.com/) 3.4（ローカルビルド）
 - [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP)（Google Fonts）
-- お問い合わせフォーム：Google Apps Script（`assets/contact.js` から送信。送信先コードはこのリポジトリには含まれない）
+- お問い合わせフォーム：Google Apps Script（`assets/contact.js` から送信。送信先コードはこのリポジトリには含まれない）。営業・ボット対策として、注意書き・「営業目的ではない」必須チェック・Cloudflare Turnstile を設置（検証は送信先の GAS 側でも行う）
 - ホスティング：Cloudflare Pages（`main` への push で自動デプロイ）
 
 ## CSSのビルド
@@ -61,7 +61,7 @@ npm run watch:css      # 監視ビルド
 | tailwind-input.css | カスタムスタイルの元ファイル（フォントサイズ・行間・表・外部リンクアイコン等） |
 | tailwind.css | 上記からのビルド成果物（自動生成） |
 | site.js | ヒーローパララックス・モバイルメニュー・年表示 |
-| contact.js | お問い合わせフォームの送信処理（GASへPOST） |
+| contact.js | お問い合わせフォームの送信処理（GASへPOST。Turnstileのトークンが無い場合は送信を止める） |
 | logotype.svg | ヘッダー・フッターのロゴタイプ |
 | logo-03-2.svg | ロゴ（sakasaew.html で使用） |
 | symbol1.svg / symbol2.svg | ヘッダーのロゴマーク等のシンボル |
