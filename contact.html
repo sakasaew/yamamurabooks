@@ -102,6 +102,8 @@
               フォームに入力して送信してください。
             </p>
 
+            <p id="form-notice" class="mb-6 text-base font-bold leading-relaxed text-slate-900">※ 営業・売り込みを目的としたご連絡はお控えください。</p>
+
             <form id="contact-form" class="grid gap-4">
               <input type="text" name="honeypot" class="hidden" tabindex="-1" autocomplete="off" />
               <div>
@@ -120,6 +122,14 @@
                 <label class="block text-base font-medium text-slate-700 mb-1" for="contactBody">詳細</label>
                 <textarea id="contactBody" name="message" rows="5" class="w-full rounded bg-white border border-slate-300 px-4 py-3 text-base" placeholder="ご質問・ご要望などをご入力ください。"></textarea>
               </div>
+              <div>
+                <label for="no-solicitation" class="flex items-start gap-3 cursor-pointer text-base leading-relaxed text-slate-700">
+                  <input type="checkbox" id="no-solicitation" name="no_solicitation" value="yes" required class="mt-1 md:mt-[1.5px] h-5 w-5 shrink-0 cursor-pointer accent-black" />
+                  <span>このお問い合わせは、営業・売り込みを目的としたものではありません <span class="ml-1 text-sm font-normal text-slate-500">必須</span></span>
+                </label>
+              </div>
+              <!-- さかさま（sakasaew.com）と共有のウィジェット。ホスト名は Cloudflare 側で管理している -->
+              <div class="cf-turnstile" data-sitekey="0x4AAAAAAGM0nCkbvmB-shup" data-language="ja" data-theme="light"></div>
               <div>
                 <button id="submit-btn" type="submit" class="rounded bg-brand px-8 py-3 text-base font-bold text-white hover:opacity-90 disabled:opacity-50">
                   <span id="submit-label">送信する →</span>
@@ -180,6 +190,7 @@
       </div>
     </footer>
 
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     <script src="./assets/site.js"></script>
     <script src="./assets/contact.js"></script>
   </body>
